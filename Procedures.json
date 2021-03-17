@@ -1,0 +1,120 @@
+{ 
+    "_id" : NumberInt(1), 
+    "Code" : NumberInt(1), 
+    "Name" : "Reverse rhinoplasty", 
+    "Cost" : 15000.0
+}
+{ 
+    "_id" : NumberInt(2), 
+    "Code" : NumberInt(2), 
+    "Name" : "Appendectomy", 
+    "Cost" : 33000.0
+}
+{ 
+    "_id" : NumberInt(3), 
+    "Code" : NumberInt(3), 
+    "Name" : "Breast biopsy", 
+    "Cost" : 500.0
+}
+{ 
+    "_id" : NumberInt(4), 
+    "Code" : NumberInt(4), 
+    "Name" : "Carotid endarterectomy", 
+    "Cost" : 15000.0
+}
+{ 
+    "_id" : NumberInt(5), 
+    "Code" : NumberInt(5), 
+    "Name" : "Cataract surgery", 
+    "Cost" : 3500.0
+}
+{ 
+    "_id" : NumberInt(6), 
+    "Code" : NumberInt(6), 
+    "Name" : "Cesarean section", 
+    "Cost" : 20000.0
+}
+{ 
+    "_id" : NumberInt(7), 
+    "Code" : NumberInt(7), 
+    "Name" : "Modified radical mastectomy", 
+    "Cost" : 7274.0
+}
+{ 
+    "_id" : NumberInt(8), 
+    "Code" : NumberInt(8), 
+    "Name" : "Cholecystectomy", 
+    "Cost" : 11234.0
+}
+{ 
+    "_id" : NumberInt(9), 
+    "Code" : NumberInt(9), 
+    "Name" : "Coronary artery bypass", 
+    "Cost" : 40000.0
+}
+{ 
+    "_id" : NumberInt(10), 
+    "Code" : NumberInt(10), 
+    "Name" : "Autolytic debridement", 
+    "Cost" : 6700.0
+}
+{ 
+    "_id" : NumberInt(11), 
+    "Code" : NumberInt(11), 
+    "Name" : "Dilation and curettage", 
+    "Cost" : 5253.0
+}
+{ 
+    "_id" : NumberInt(12), 
+    "Code" : NumberInt(12), 
+    "Name" : "Hemorrhoidectomy", 
+    "Cost" : 5965.0
+}
+{ 
+    "_id" : NumberInt(13), 
+    "Code" : NumberInt(13), 
+    "Name" : "Hysterectomy", 
+    "Cost" : 7741.0
+}
+{ 
+    "_id" : NumberInt(14), 
+    "Code" : NumberInt(14), 
+    "Name" : "Inguinal hernia repair", 
+    "Cost" : 6200.0
+}
+{ 
+    "_id" : NumberInt(15), 
+    "Code" : NumberInt(15), 
+    "Name" : "Laminectomy", 
+    "Cost" : 77000.0
+}
+{ 
+    "_id" : NumberInt(16), 
+    "Code" : NumberInt(16), 
+    "Name" : "spinal fusion surgery", 
+    "Cost" : 14000.0
+}
+{ 
+    "_id" : NumberInt(17), 
+    "Code" : NumberInt(17), 
+    "Name" : "Mastectomy", 
+    "Cost" : 20392.0
+}
+{ 
+    "_id" : NumberInt(18), 
+    "Code" : NumberInt(18), 
+    "Name" : "Partial colectomy", 
+    "Cost" : 31601.0
+}
+{ 
+    "_id" : NumberInt(19), 
+    "Code" : NumberInt(19), 
+    "Name" : "Prostatectomy", 
+    "Cost" : 35000.0
+}
+{ 
+    "_id" : NumberInt(20), 
+    "Code" : NumberInt(20), 
+    "Name" : "Tonsillectomy", 
+    "Cost" : 5442.0
+}

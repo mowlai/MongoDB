@@ -1,0 +1,180 @@
+{ 
+    "_id" : NumberInt(1), 
+    "DepartmentID" : NumberInt(1), 
+    "Name" : "General Medicine", 
+    "Head" : NumberInt(108)
+}
+{ 
+    "_id" : NumberInt(2), 
+    "DepartmentID" : NumberInt(2), 
+    "Name" : "Surgery", 
+    "Head" : NumberInt(101)
+}
+{ 
+    "_id" : NumberInt(3), 
+    "DepartmentID" : NumberInt(3), 
+    "Name" : "Psychiatry", 
+    "Head" : NumberInt(9)
+}
+{ 
+    "_id" : NumberInt(4), 
+    "DepartmentID" : NumberInt(4), 
+    "Name" : "Accident and emergency (A&E)", 
+    "Head" : NumberInt(6)
+}
+{ 
+    "_id" : NumberInt(5), 
+    "DepartmentID" : NumberInt(5), 
+    "Name" : "Maternity", 
+    "Head" : NumberInt(104)
+}
+{ 
+    "_id" : NumberInt(6), 
+    "DepartmentID" : NumberInt(6), 
+    "Name" : "Anesthetics", 
+    "Head" : NumberInt(103)
+}
+{ 
+    "_id" : NumberInt(7), 
+    "DepartmentID" : NumberInt(7), 
+    "Name" : "Breast Screening", 
+    "Head" : NumberInt(14)
+}
+{ 
+    "_id" : NumberInt(8), 
+    "DepartmentID" : NumberInt(8), 
+    "Name" : "Burn Center", 
+    "Head" : NumberInt(118)
+}
+{ 
+    "_id" : NumberInt(9), 
+    "DepartmentID" : NumberInt(9), 
+    "Name" : "Cardiology", 
+    "Head" : NumberInt(3)
+}
+{ 
+    "_id" : NumberInt(10), 
+    "DepartmentID" : NumberInt(10), 
+    "Name" : "Central Sterile Services(CSSD)", 
+    "Head" : NumberInt(127)
+}
+{ 
+    "_id" : NumberInt(11), 
+    "DepartmentID" : NumberInt(11), 
+    "Name" : "Nutrition and Dietetics", 
+    "Head" : NumberInt(45)
+}
+{ 
+    "_id" : NumberInt(12), 
+    "DepartmentID" : NumberInt(12), 
+    "Name" : "Coronary Care Unit (CCU)", 
+    "Head" : NumberInt(10)
+}
+{ 
+    "_id" : NumberInt(13), 
+    "DepartmentID" : NumberInt(13), 
+    "Name" : "Critical Care", 
+    "Head" : NumberInt(49)
+}
+{ 
+    "_id" : NumberInt(14), 
+    "DepartmentID" : NumberInt(14), 
+    "Name" : "Diagnostic Imaging", 
+    "Head" : NumberInt(120)
+}
+{ 
+    "_id" : NumberInt(15), 
+    "DepartmentID" : NumberInt(15), 
+    "Name" : "Discharge Lounge", 
+    "Head" : NumberInt(83)
+}
+{ 
+    "_id" : NumberInt(16), 
+    "DepartmentID" : NumberInt(16), 
+    "Name" : "Gastroenterology", 
+    "Head" : NumberInt(6)
+}
+{ 
+    "_id" : NumberInt(17), 
+    "DepartmentID" : NumberInt(17), 
+    "Name" : "Gynecology", 
+    "Head" : NumberInt(64)
+}
+{ 
+    "_id" : NumberInt(18), 
+    "DepartmentID" : NumberInt(18), 
+    "Name" : "Haematology", 
+    "Head" : NumberInt(40)
+}
+{ 
+    "_id" : NumberInt(19), 
+    "DepartmentID" : NumberInt(19), 
+    "Name" : "Nephrology", 
+    "Head" : NumberInt(98)
+}
+{ 
+    "_id" : NumberInt(20), 
+    "DepartmentID" : NumberInt(20), 
+    "Name" : "Neonatal", 
+    "Head" : NumberInt(13)
+}
+{ 
+    "_id" : NumberInt(21), 
+    "DepartmentID" : NumberInt(21), 
+    "Name" : "Neurology", 
+    "Head" : NumberInt(120)
+}
+{ 
+    "_id" : NumberInt(22), 
+    "DepartmentID" : NumberInt(22), 
+    "Name" : "Orthopaedics", 
+    "Head" : NumberInt(168)
+}
+{ 
+    "_id" : NumberInt(23), 
+    "DepartmentID" : NumberInt(23), 
+    "Name" : "Otolaryngology(ENT)", 
+    "Head" : NumberInt(5)
+}
+{ 
+    "_id" : NumberInt(24), 
+    "DepartmentID" : NumberInt(24), 
+    "Name" : "Pharmacy", 
+    "Head" : NumberInt(142)
+}
+{ 
+    "_id" : NumberInt(25), 
+    "DepartmentID" : NumberInt(25), 
+    "Name" : "Urology", 
+    "Head" : NumberInt(101)
+}
+{ 
+    "_id" : NumberInt(26), 
+    "DepartmentID" : NumberInt(26), 
+    "Name" : "Rheumatology", 
+    "Head" : NumberInt(164)
+}
+{ 
+    "_id" : NumberInt(27), 
+    "DepartmentID" : NumberInt(27), 
+    "Name" : "Radiotherapy", 
+    "Head" : NumberInt(152)
+}
+{ 
+    "_id" : NumberInt(28), 
+    "DepartmentID" : NumberInt(28), 
+    "Name" : "Radiology", 
+    "Head" : NumberInt(149)
+}
+{ 
+    "_id" : NumberInt(29), 
+    "DepartmentID" : NumberInt(29), 
+    "Name" : "Oncology", 
+    "Head" : NumberInt(113)
+}
+{ 
+    "_id" : NumberInt(30), 
+    "DepartmentID" : NumberInt(30), 
+    "Name" : "Ophthalmology", 
+    "Head" : NumberInt(173)
+}

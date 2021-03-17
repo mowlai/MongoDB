@@ -1,0 +1,7032 @@
+{ 
+    "_id" : NumberInt(1), 
+    "EmployeeID" : NumberInt(1), 
+    "Name" : "Naida Schultz", 
+    "Position" : "Cardiology", 
+    "SSN" : NumberInt(375019270), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000292), 
+        NumberInt(100000317), 
+        NumberInt(100000485), 
+        NumberInt(100000495), 
+        NumberInt(100000605), 
+        NumberInt(100000765), 
+        NumberInt(100000769)
+    ]
+}
+{ 
+    "_id" : NumberInt(2), 
+    "EmployeeID" : NumberInt(2), 
+    "Name" : "Tate Armstrong", 
+    "Position" : "Phrenology ", 
+    "SSN" : NumberInt(951100813), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000055), 
+        NumberInt(100000162), 
+        NumberInt(100000238), 
+        NumberInt(100000250), 
+        NumberInt(100000364), 
+        NumberInt(100000388), 
+        NumberInt(100000474), 
+        NumberInt(100000782)
+    ]
+}
+{ 
+    "_id" : NumberInt(3), 
+    "EmployeeID" : NumberInt(3), 
+    "Name" : "Elmo Kane", 
+    "Position" : "Cardiology", 
+    "SSN" : NumberInt(544043016), 
+    "Department" : {
+        "DepartmentID" : NumberInt(9), 
+        "Name" : "Cardiology"
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Cataract surgery", 
+            "Cost" : 3500.0
+        }, 
+        "CertificationDate" : ISODate("2020-01-13T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-01-13T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000032), 
+        NumberInt(100000098), 
+        NumberInt(100000272), 
+        NumberInt(100000280), 
+        NumberInt(100000486), 
+        NumberInt(100000509), 
+        NumberInt(100000607), 
+        NumberInt(100000702), 
+        NumberInt(100000874)
+    ]
+}
+{ 
+    "_id" : NumberInt(4), 
+    "EmployeeID" : NumberInt(4), 
+    "Name" : "Nasim Mcintyre", 
+    "Position" : "Gastroenterology", 
+    "SSN" : NumberInt(249459976), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Carotid endarterectomy", 
+            "Cost" : 15000.0
+        }, 
+        "CertificationDate" : ISODate("2020-01-03T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-01-03T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000141), 
+        NumberInt(100000196), 
+        NumberInt(100000325), 
+        NumberInt(100000708), 
+        NumberInt(100000797)
+    ]
+}
+{ 
+    "_id" : NumberInt(5), 
+    "EmployeeID" : NumberInt(5), 
+    "Name" : "Kadeem Langley", 
+    "Position" : "Hematology", 
+    "SSN" : NumberInt(994785963), 
+    "Department" : {
+        "DepartmentID" : NumberInt(23), 
+        "Name" : "Otolaryngology(ENT)"
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000057), 
+        NumberInt(100000647)
+    ]
+}
+{ 
+    "_id" : NumberInt(6), 
+    "EmployeeID" : NumberInt(6), 
+    "Name" : "Grace Wolf", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(74007258), 
+    "Department" : {
+        "DepartmentID" : NumberInt(4), 
+        "Name" : "Accident and emergency (A&E)"
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(28), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Radiology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000279), 
+        NumberInt(100000858), 
+        NumberInt(100000920), 
+        NumberInt(100000944)
+    ]
+}
+{ 
+    "_id" : NumberInt(7), 
+    "EmployeeID" : NumberInt(7), 
+    "Name" : "Patience Salas", 
+    "Position" : "Hematology", 
+    "SSN" : NumberInt(517137684), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000386)
+    ]
+}
+{ 
+    "_id" : NumberInt(8), 
+    "EmployeeID" : NumberInt(8), 
+    "Name" : "Hilda Shields", 
+    "Position" : "Gastroenterology", 
+    "SSN" : NumberInt(203133108), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(14), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Diagnostic Imaging"
+        }, 
+        {
+            "Department" : NumberInt(30), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Diagnostic Imaging"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000201), 
+        NumberInt(100000352), 
+        NumberInt(100000694), 
+        NumberInt(100000837)
+    ]
+}
+{ 
+    "_id" : NumberInt(9), 
+    "EmployeeID" : NumberInt(9), 
+    "Name" : "Lionel Sanchez", 
+    "Position" : "Gastroenterology", 
+    "SSN" : NumberInt(954942660), 
+    "Department" : {
+        "DepartmentID" : NumberInt(3), 
+        "Name" : "Psychiatry"
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(21), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Neurology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000007), 
+        NumberInt(100000561), 
+        NumberInt(100000762)
+    ]
+}
+{ 
+    "_id" : NumberInt(10), 
+    "EmployeeID" : NumberInt(10), 
+    "Name" : "Caleb Larson", 
+    "Position" : "Cardiology", 
+    "SSN" : NumberInt(859578419), 
+    "Department" : {
+        "DepartmentID" : NumberInt(12), 
+        "Name" : "Coronary Care Unit (CCU)"
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000033), 
+        NumberInt(100000132), 
+        NumberInt(100000677)
+    ]
+}
+{ 
+    "_id" : NumberInt(11), 
+    "EmployeeID" : NumberInt(11), 
+    "Name" : "Isabelle Salinas", 
+    "Position" : "Phrenology ", 
+    "SSN" : NumberInt(998509517), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000028), 
+        NumberInt(100000040), 
+        NumberInt(100000070), 
+        NumberInt(100000149), 
+        NumberInt(100000159), 
+        NumberInt(100000178), 
+        NumberInt(100000220), 
+        NumberInt(100000439), 
+        NumberInt(100000563), 
+        NumberInt(100000595), 
+        NumberInt(100000603), 
+        NumberInt(100000710)
+    ]
+}
+{ 
+    "_id" : NumberInt(12), 
+    "EmployeeID" : NumberInt(12), 
+    "Name" : "Noble Franks", 
+    "Position" : "Infectious Diseases", 
+    "SSN" : NumberInt(804141772), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000175), 
+        NumberInt(100000255), 
+        NumberInt(100000366), 
+        NumberInt(100000556), 
+        NumberInt(100000656)
+    ]
+}
+{ 
+    "_id" : NumberInt(13), 
+    "EmployeeID" : NumberInt(13), 
+    "Name" : "Jerry Ward", 
+    "Position" : "Endocrinology", 
+    "SSN" : NumberInt(338352995), 
+    "Department" : {
+        "DepartmentID" : NumberInt(20), 
+        "Name" : "Neonatal"
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(1), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "General Medicine"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000145), 
+        NumberInt(100000351), 
+        NumberInt(100000729)
+    ]
+}
+{ 
+    "_id" : NumberInt(14), 
+    "EmployeeID" : NumberInt(14), 
+    "Name" : "Tanek Pierce", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(734940343), 
+    "Department" : {
+        "DepartmentID" : NumberInt(7), 
+        "Name" : "Breast Screening"
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(21), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Neurology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Reverse rhinoplasty", 
+            "Cost" : 15000.0
+        }, 
+        "CertificationDate" : ISODate("2020-09-29T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-09-29T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000056), 
+        "Procedures" : {
+            "Name" : "Cholecystectomy", 
+            "Cost" : 11234.0
+        }, 
+        "Stay" : NumberInt(3307), 
+        "DateUndergoes" : ISODate("2020-04-25T02:19:52.000+0000"), 
+        "Physician" : NumberInt(14), 
+        "AssistingNurse" : NumberInt(235)
+    }, 
+    "Patient" : [
+        NumberInt(100000085), 
+        NumberInt(100000179), 
+        NumberInt(100000553), 
+        NumberInt(100000565), 
+        NumberInt(100000571)
+    ]
+}
+{ 
+    "_id" : NumberInt(15), 
+    "EmployeeID" : NumberInt(15), 
+    "Name" : "Hoyt Stafford", 
+    "Position" : "Hematology", 
+    "SSN" : NumberInt(775907769), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Hysterectomy", 
+            "Cost" : 7741.0
+        }, 
+        "CertificationDate" : ISODate("2020-09-27T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-09-27T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000191), 
+        "Procedures" : {
+            "Name" : "Cataract surgery", 
+            "Cost" : 3500.0
+        }, 
+        "Stay" : NumberInt(3224), 
+        "DateUndergoes" : ISODate("2020-04-22T21:58:19.000+0000"), 
+        "Physician" : NumberInt(15), 
+        "AssistingNurse" : NumberInt(544)
+    }, 
+    "Patient" : [
+        NumberInt(100000066), 
+        NumberInt(100000392), 
+        NumberInt(100000545), 
+        NumberInt(100000721), 
+        NumberInt(100000805), 
+        NumberInt(100000843), 
+        NumberInt(100000867), 
+        NumberInt(100000931)
+    ]
+}
+{ 
+    "_id" : NumberInt(16), 
+    "EmployeeID" : NumberInt(16), 
+    "Name" : "Lucian Briggs", 
+    "Position" : "Hematology", 
+    "SSN" : NumberInt(534068269), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "spinal fusion surgery", 
+            "Cost" : 14000.0
+        }, 
+        "CertificationDate" : ISODate("2020-09-29T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-09-29T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000280), 
+        "Procedures" : {
+            "Name" : "Coronary artery bypass", 
+            "Cost" : 40000.0
+        }, 
+        "Stay" : NumberInt(3270), 
+        "DateUndergoes" : ISODate("2020-04-28T04:24:35.000+0000"), 
+        "Physician" : NumberInt(16), 
+        "AssistingNurse" : NumberInt(230)
+    }, 
+    "Patient" : [
+        NumberInt(100000186), 
+        NumberInt(100000319), 
+        NumberInt(100000401), 
+        NumberInt(100000467), 
+        NumberInt(100000715), 
+        NumberInt(100000777)
+    ]
+}
+{ 
+    "_id" : NumberInt(17), 
+    "EmployeeID" : NumberInt(17), 
+    "Name" : "Joshua Silva", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(513768923), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000585), 
+        "Procedures" : {
+            "Name" : "spinal fusion surgery", 
+            "Cost" : 14000.0
+        }, 
+        "Stay" : NumberInt(3253), 
+        "DateUndergoes" : ISODate("2020-04-24T08:36:10.000+0000"), 
+        "Physician" : NumberInt(17), 
+        "AssistingNurse" : NumberInt(570)
+    }, 
+    "Patient" : [
+        NumberInt(100000395), 
+        NumberInt(100000541), 
+        NumberInt(100000657), 
+        NumberInt(100000667)
+    ]
+}
+{ 
+    "_id" : NumberInt(18), 
+    "EmployeeID" : NumberInt(18), 
+    "Name" : "Hilary Atkinson", 
+    "Position" : "Cardiology", 
+    "SSN" : NumberInt(522823713), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000023), 
+        NumberInt(100000291), 
+        NumberInt(100000526), 
+        NumberInt(100000531), 
+        NumberInt(100000672), 
+        NumberInt(100000716), 
+        NumberInt(100000937)
+    ]
+}
+{ 
+    "_id" : NumberInt(19), 
+    "EmployeeID" : NumberInt(19), 
+    "Name" : "Hu Hines", 
+    "Position" : "Cardiology", 
+    "SSN" : NumberInt(614147523), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(28), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Radiology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000216), 
+        NumberInt(100000378), 
+        NumberInt(100000800)
+    ]
+}
+{ 
+    "_id" : NumberInt(20), 
+    "EmployeeID" : NumberInt(20), 
+    "Name" : "Clark Emerson", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(273091165), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(5), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Maternity"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Mastectomy", 
+            "Cost" : 20392.0
+        }, 
+        "CertificationDate" : ISODate("2020-03-13T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-03-13T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000225), 
+        NumberInt(100000277), 
+        NumberInt(100000350), 
+        NumberInt(100000466), 
+        NumberInt(100000956), 
+        NumberInt(100000990), 
+        NumberInt(100000999)
+    ]
+}
+{ 
+    "_id" : NumberInt(21), 
+    "EmployeeID" : NumberInt(21), 
+    "Name" : "Arsenio Mejia", 
+    "Position" : "Phrenology ", 
+    "SSN" : NumberInt(162887967), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(8), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Burn Center"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000026), 
+        NumberInt(100000390), 
+        NumberInt(100000391), 
+        NumberInt(100000640)
+    ]
+}
+{ 
+    "_id" : NumberInt(22), 
+    "EmployeeID" : NumberInt(22), 
+    "Name" : "Charissa Gallegos", 
+    "Position" : "Oncology", 
+    "SSN" : NumberInt(75693631), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000131), 
+        NumberInt(100000271), 
+        NumberInt(100000481), 
+        NumberInt(100000868)
+    ]
+}
+{ 
+    "_id" : NumberInt(23), 
+    "EmployeeID" : NumberInt(23), 
+    "Name" : "Sydnee Wiggins", 
+    "Position" : "Endocrinology", 
+    "SSN" : NumberInt(522345623), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(8), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Burn Center"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000125), 
+        NumberInt(100000555), 
+        NumberInt(100000759)
+    ]
+}
+{ 
+    "_id" : NumberInt(24), 
+    "EmployeeID" : NumberInt(24), 
+    "Name" : "Moses Blanchard", 
+    "Position" : "Oncology", 
+    "SSN" : NumberInt(299206368), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(29), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Oncology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Cholecystectomy", 
+            "Cost" : 11234.0
+        }, 
+        "CertificationDate" : ISODate("2020-01-03T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-01-03T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000376), 
+        NumberInt(100000533), 
+        NumberInt(100000583), 
+        NumberInt(100000645), 
+        NumberInt(100000781)
+    ]
+}
+{ 
+    "_id" : NumberInt(25), 
+    "EmployeeID" : NumberInt(25), 
+    "Name" : "Dillon Livingston", 
+    "Position" : "Cardiology", 
+    "SSN" : NumberInt(963487947), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(22), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Orthopaedics"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000147), 
+        NumberInt(100000314), 
+        NumberInt(100000339), 
+        NumberInt(100000431), 
+        NumberInt(100000945), 
+        NumberInt(100000949)
+    ]
+}
+{ 
+    "_id" : NumberInt(26), 
+    "EmployeeID" : NumberInt(26), 
+    "Name" : "Dalton Calderon", 
+    "Position" : "Family Physician", 
+    "SSN" : NumberInt(88277655), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Cholecystectomy", 
+            "Cost" : 11234.0
+        }, 
+        "CertificationDate" : ISODate("2020-05-21T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-05-21T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000936), 
+        "Procedures" : {
+            "Name" : "Inguinal hernia repair", 
+            "Cost" : 6200.0
+        }, 
+        "Stay" : NumberInt(3221), 
+        "DateUndergoes" : ISODate("2020-04-27T13:08:10.000+0000"), 
+        "Physician" : NumberInt(26), 
+        "AssistingNurse" : NumberInt(461)
+    }, 
+    "Patient" : [
+        NumberInt(100000124), 
+        NumberInt(100000218), 
+        NumberInt(100000338), 
+        NumberInt(100000459), 
+        NumberInt(100000865), 
+        NumberInt(100000907)
+    ]
+}
+{ 
+    "_id" : NumberInt(27), 
+    "EmployeeID" : NumberInt(27), 
+    "Name" : "Moana Schmidt", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(357082532), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(26), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Rheumatology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Cataract surgery", 
+            "Cost" : 3500.0
+        }, 
+        "CertificationDate" : ISODate("2020-12-23T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-12-23T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000557), 
+        "Procedures" : {
+            "Name" : "Reverse rhinoplasty", 
+            "Cost" : 15000.0
+        }, 
+        "Stay" : NumberInt(3261), 
+        "DateUndergoes" : ISODate("2020-04-24T14:39:37.000+0000"), 
+        "Physician" : NumberInt(27), 
+        "AssistingNurse" : NumberInt(129)
+    }, 
+    "Patient" : [
+        NumberInt(100000064), 
+        NumberInt(100000116), 
+        NumberInt(100000195), 
+        NumberInt(100000323), 
+        NumberInt(100000380), 
+        NumberInt(100000619), 
+        NumberInt(100000897), 
+        NumberInt(100000973)
+    ]
+}
+{ 
+    "_id" : NumberInt(28), 
+    "EmployeeID" : NumberInt(28), 
+    "Name" : "Ifeoma Murphy", 
+    "Position" : "Phrenology ", 
+    "SSN" : NumberInt(743235384), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Carotid endarterectomy", 
+            "Cost" : 15000.0
+        }, 
+        "CertificationDate" : ISODate("2018-12-17T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2019-12-17T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000306), 
+        NumberInt(100000473), 
+        NumberInt(100000499), 
+        NumberInt(100000683), 
+        NumberInt(100000725)
+    ]
+}
+{ 
+    "_id" : NumberInt(29), 
+    "EmployeeID" : NumberInt(29), 
+    "Name" : "Jacob Bryan", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(383791023), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(3), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Psychiatry"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Appendectomy", 
+            "Cost" : 33000.0
+        }, 
+        "CertificationDate" : ISODate("2020-05-22T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-05-22T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000861), 
+        "Procedures" : {
+            "Name" : "Cataract surgery", 
+            "Cost" : 3500.0
+        }, 
+        "Stay" : NumberInt(3279), 
+        "DateUndergoes" : ISODate("2020-04-28T11:32:21.000+0000"), 
+        "Physician" : NumberInt(29), 
+        "AssistingNurse" : NumberInt(594)
+    }, 
+    "Patient" : [
+        NumberInt(100000251), 
+        NumberInt(100000278), 
+        NumberInt(100000313), 
+        NumberInt(100000337), 
+        NumberInt(100000426), 
+        NumberInt(100000538), 
+        NumberInt(100000849)
+    ]
+}
+{ 
+    "_id" : NumberInt(30), 
+    "EmployeeID" : NumberInt(30), 
+    "Name" : "Moses Warner", 
+    "Position" : "Hematology", 
+    "SSN" : NumberInt(339070138), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000068), 
+        NumberInt(100000199), 
+        NumberInt(100000253), 
+        NumberInt(100000293), 
+        NumberInt(100000341), 
+        NumberInt(100000434), 
+        NumberInt(100000751)
+    ]
+}
+{ 
+    "_id" : NumberInt(31), 
+    "EmployeeID" : NumberInt(31), 
+    "Name" : "Denton Long", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(299041435), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(6), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Anesthetics"
+        }, 
+        {
+            "Department" : NumberInt(17), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Anesthetics"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000058), 
+        NumberInt(100000456), 
+        NumberInt(100000980), 
+        NumberInt(100000985)
+    ]
+}
+{ 
+    "_id" : NumberInt(32), 
+    "EmployeeID" : NumberInt(32), 
+    "Name" : "Aphrodite Mosley", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(294261612), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(13), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Critical Care"
+        }, 
+        {
+            "Department" : NumberInt(18), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Critical Care"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000613), 
+        "Procedures" : {
+            "Name" : "Autolytic debridement", 
+            "Cost" : 6700.0
+        }, 
+        "Stay" : NumberInt(3272), 
+        "DateUndergoes" : ISODate("2020-04-29T20:36:12.000+0000"), 
+        "Physician" : NumberInt(32), 
+        "AssistingNurse" : NumberInt(411)
+    }, 
+    "Patient" : [
+        NumberInt(100000165), 
+        NumberInt(100000852), 
+        NumberInt(100000919), 
+        NumberInt(100000962)
+    ]
+}
+{ 
+    "_id" : NumberInt(33), 
+    "EmployeeID" : NumberInt(33), 
+    "Name" : "Brady Leach", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(206378777), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(13), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Critical Care"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000820), 
+        NumberInt(100000872), 
+        NumberInt(100000917)
+    ]
+}
+{ 
+    "_id" : NumberInt(34), 
+    "EmployeeID" : NumberInt(34), 
+    "Name" : "Jerry Mack", 
+    "Position" : "Oncology", 
+    "SSN" : NumberInt(183416281), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(3), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Psychiatry"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000331), 
+        NumberInt(100000854), 
+        NumberInt(100000873), 
+        NumberInt(100000884)
+    ]
+}
+{ 
+    "_id" : NumberInt(35), 
+    "EmployeeID" : NumberInt(35), 
+    "Name" : "Aladdin Bradford", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(247604018), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(9), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Cardiology"
+        }, 
+        {
+            "Department" : NumberInt(24), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Cardiology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000522), 
+        NumberInt(100000768), 
+        NumberInt(100000809), 
+        NumberInt(100000940)
+    ]
+}
+{ 
+    "_id" : NumberInt(36), 
+    "EmployeeID" : NumberInt(36), 
+    "Name" : "Serina Gordon", 
+    "Position" : "Phrenology ", 
+    "SSN" : NumberInt(104950288), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000501), 
+        "Procedures" : {
+            "Name" : "Cataract surgery", 
+            "Cost" : 3500.0
+        }, 
+        "Stay" : NumberInt(3236), 
+        "DateUndergoes" : ISODate("2020-04-22T06:28:34.000+0000"), 
+        "Physician" : NumberInt(36), 
+        "AssistingNurse" : NumberInt(370)
+    }, 
+    "Patient" : [
+        NumberInt(100000169), 
+        NumberInt(100000534)
+    ]
+}
+{ 
+    "_id" : NumberInt(37), 
+    "EmployeeID" : NumberInt(37), 
+    "Name" : "Stacy Diaz", 
+    "Position" : "Infectious Diseases", 
+    "SSN" : NumberInt(979516208), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(22), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Orthopaedics"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Dilation and curettage", 
+            "Cost" : 5253.0
+        }, 
+        "CertificationDate" : ISODate("2018-12-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2019-12-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000555), 
+        "Procedures" : {
+            "Name" : "Laminectomy", 
+            "Cost" : 77000.0
+        }, 
+        "Stay" : NumberInt(3303), 
+        "DateUndergoes" : ISODate("2020-04-26T18:46:33.000+0000"), 
+        "Physician" : NumberInt(37), 
+        "AssistingNurse" : NumberInt(202)
+    }, 
+    "Patient" : [
+        NumberInt(100000346), 
+        NumberInt(100000753), 
+        NumberInt(100000757), 
+        NumberInt(100000818), 
+        NumberInt(100000913), 
+        NumberInt(100000996)
+    ]
+}
+{ 
+    "_id" : NumberInt(38), 
+    "EmployeeID" : NumberInt(38), 
+    "Name" : "Brett Lancaster", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(316247062), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000210), 
+        NumberInt(100000246), 
+        NumberInt(100000333), 
+        NumberInt(100000830), 
+        NumberInt(100000840), 
+        NumberInt(100000860), 
+        NumberInt(100000934)
+    ]
+}
+{ 
+    "_id" : NumberInt(39), 
+    "EmployeeID" : NumberInt(39), 
+    "Name" : "Dane Burnett", 
+    "Position" : "Hematology", 
+    "SSN" : NumberInt(446933782), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(9), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Cardiology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Breast biopsy", 
+            "Cost" : 500.0
+        }, 
+        "CertificationDate" : ISODate("2020-01-03T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-01-03T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000636), 
+        "Procedures" : {
+            "Name" : "Cesarean section", 
+            "Cost" : 20000.0
+        }, 
+        "Stay" : NumberInt(3260), 
+        "DateUndergoes" : ISODate("2020-04-22T17:50:31.000+0000"), 
+        "Physician" : NumberInt(39), 
+        "AssistingNurse" : NumberInt(516)
+    }, 
+    "Patient" : [
+        NumberInt(100000111), 
+        NumberInt(100000452), 
+        NumberInt(100000910)
+    ]
+}
+{ 
+    "_id" : NumberInt(40), 
+    "EmployeeID" : NumberInt(40), 
+    "Name" : "Ramona Best", 
+    "Position" : "Hematology", 
+    "SSN" : NumberInt(409432418), 
+    "Department" : {
+        "DepartmentID" : NumberInt(18), 
+        "Name" : "Haematology"
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Reverse rhinoplasty", 
+            "Cost" : 15000.0
+        }, 
+        "CertificationDate" : ISODate("2018-12-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2019-12-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000079), 
+        NumberInt(100000245), 
+        NumberInt(100000344), 
+        NumberInt(100000372), 
+        NumberInt(100000432)
+    ]
+}
+{ 
+    "_id" : NumberInt(41), 
+    "EmployeeID" : NumberInt(41), 
+    "Name" : "Leonard Head", 
+    "Position" : "Cardiology", 
+    "SSN" : NumberInt(393015947), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(15), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Discharge Lounge"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Cesarean section", 
+            "Cost" : 20000.0
+        }, 
+        "CertificationDate" : ISODate("2020-01-03T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-01-03T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000433), 
+        "Procedures" : {
+            "Name" : "Cesarean section", 
+            "Cost" : 20000.0
+        }, 
+        "Stay" : NumberInt(3305), 
+        "DateUndergoes" : ISODate("2020-04-23T20:08:04.000+0000"), 
+        "Physician" : NumberInt(41), 
+        "AssistingNurse" : NumberInt(318)
+    }, 
+    "Patient" : [
+
+    ]
+}
+{ 
+    "_id" : NumberInt(42), 
+    "EmployeeID" : NumberInt(42), 
+    "Name" : "Josiah Wilson", 
+    "Position" : "Hematology", 
+    "SSN" : NumberInt(828120653), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000047), 
+        NumberInt(100000308), 
+        NumberInt(100000651)
+    ]
+}
+{ 
+    "_id" : NumberInt(43), 
+    "EmployeeID" : NumberInt(43), 
+    "Name" : "Faith Carroll", 
+    "Position" : "Hematology", 
+    "SSN" : NumberInt(693153325), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000011), 
+        NumberInt(100000034), 
+        NumberInt(100000144), 
+        NumberInt(100000513), 
+        NumberInt(100000831)
+    ]
+}
+{ 
+    "_id" : NumberInt(44), 
+    "EmployeeID" : NumberInt(44), 
+    "Name" : "Bradley Rios", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(469845076), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Hysterectomy", 
+            "Cost" : 7741.0
+        }, 
+        "CertificationDate" : ISODate("2020-08-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-08-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000089), 
+        NumberInt(100000105), 
+        NumberInt(100000158), 
+        NumberInt(100000219), 
+        NumberInt(100000586), 
+        NumberInt(100000608)
+    ]
+}
+{ 
+    "_id" : NumberInt(45), 
+    "EmployeeID" : NumberInt(45), 
+    "Name" : "Ulla Farmer", 
+    "Position" : "Oncology", 
+    "SSN" : NumberInt(884506463), 
+    "Department" : {
+        "DepartmentID" : NumberInt(11), 
+        "Name" : "Nutrition and Dietetics"
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000021), 
+        NumberInt(100000266), 
+        NumberInt(100000353), 
+        NumberInt(100000451), 
+        NumberInt(100000516), 
+        NumberInt(100000643), 
+        NumberInt(100000644), 
+        NumberInt(100000793), 
+        NumberInt(100000926), 
+        NumberInt(100000947)
+    ]
+}
+{ 
+    "_id" : NumberInt(46), 
+    "EmployeeID" : NumberInt(46), 
+    "Name" : "Lucius Sawyer", 
+    "Position" : "Phrenology ", 
+    "SSN" : NumberInt(839398841), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000663), 
+        "Procedures" : {
+            "Name" : "Cataract surgery", 
+            "Cost" : 3500.0
+        }, 
+        "Stay" : NumberInt(3288), 
+        "DateUndergoes" : ISODate("2020-04-22T04:40:43.000+0000"), 
+        "Physician" : NumberInt(46), 
+        "AssistingNurse" : NumberInt(349)
+    }, 
+    "Patient" : [
+        NumberInt(100000118), 
+        NumberInt(100000302), 
+        NumberInt(100000303), 
+        NumberInt(100000356), 
+        NumberInt(100000469), 
+        NumberInt(100000602), 
+        NumberInt(100000670)
+    ]
+}
+{ 
+    "_id" : NumberInt(47), 
+    "EmployeeID" : NumberInt(47), 
+    "Name" : "Wylie Knox", 
+    "Position" : "Gastroenterology", 
+    "SSN" : NumberInt(677918007), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000355), 
+        NumberInt(100000528), 
+        NumberInt(100000594)
+    ]
+}
+{ 
+    "_id" : NumberInt(48), 
+    "EmployeeID" : NumberInt(48), 
+    "Name" : "Zachary Bentley", 
+    "Position" : "Hematology", 
+    "SSN" : NumberInt(485887892), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000077), 
+        NumberInt(100000420), 
+        NumberInt(100000438), 
+        NumberInt(100000827), 
+        NumberInt(100000995), 
+        NumberInt(100000998)
+    ]
+}
+{ 
+    "_id" : NumberInt(49), 
+    "EmployeeID" : NumberInt(49), 
+    "Name" : "Morgan Carr", 
+    "Position" : "Phrenology ", 
+    "SSN" : NumberInt(689931353), 
+    "Department" : {
+        "DepartmentID" : NumberInt(13), 
+        "Name" : "Critical Care"
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(7), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Breast Screening"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000037), 
+        NumberInt(100000260), 
+        NumberInt(100000549), 
+        NumberInt(100000795), 
+        NumberInt(100000859), 
+        NumberInt(100000957)
+    ]
+}
+{ 
+    "_id" : NumberInt(50), 
+    "EmployeeID" : NumberInt(50), 
+    "Name" : "Darryl Garrison", 
+    "Position" : "Cardiology", 
+    "SSN" : NumberInt(216797526), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Hysterectomy", 
+            "Cost" : 7741.0
+        }, 
+        "CertificationDate" : ISODate("2020-06-15T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-06-15T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000122), 
+        NumberInt(100000128), 
+        NumberInt(100000436), 
+        NumberInt(100000552), 
+        NumberInt(100000665)
+    ]
+}
+{ 
+    "_id" : NumberInt(51), 
+    "EmployeeID" : NumberInt(51), 
+    "Name" : "Lana Neal", 
+    "Position" : "Family Physician ", 
+    "SSN" : NumberInt(416532210), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000018), 
+        NumberInt(100000285), 
+        NumberInt(100000294), 
+        NumberInt(100000311), 
+        NumberInt(100000588), 
+        NumberInt(100000593), 
+        NumberInt(100000635), 
+        NumberInt(100000705), 
+        NumberInt(100000908)
+    ]
+}
+{ 
+    "_id" : NumberInt(52), 
+    "EmployeeID" : NumberInt(52), 
+    "Name" : "Sebastian Bradford", 
+    "Position" : "Phrenology ", 
+    "SSN" : NumberInt(793565986), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Cesarean section", 
+            "Cost" : 20000.0
+        }, 
+        "CertificationDate" : ISODate("2020-12-10T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-12-10T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000072), 
+        NumberInt(100000540), 
+        NumberInt(100000790), 
+        NumberInt(100000991)
+    ]
+}
+{ 
+    "_id" : NumberInt(53), 
+    "EmployeeID" : NumberInt(53), 
+    "Name" : "Kerry Hutchinson", 
+    "Position" : "Cardiology", 
+    "SSN" : NumberInt(107477676), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000153), 
+        NumberInt(100000228), 
+        NumberInt(100000625), 
+        NumberInt(100000798), 
+        NumberInt(100000823), 
+        NumberInt(100000882), 
+        NumberInt(100000925)
+    ]
+}
+{ 
+    "_id" : NumberInt(54), 
+    "EmployeeID" : NumberInt(54), 
+    "Name" : "Quincy Odom", 
+    "Position" : "Endocrinology", 
+    "SSN" : NumberInt(529893800), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Carotid endarterectomy", 
+            "Cost" : 15000.0
+        }, 
+        "CertificationDate" : ISODate("2020-01-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-01-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000187), 
+        NumberInt(100000453), 
+        NumberInt(100000568), 
+        NumberInt(100000832)
+    ]
+}
+{ 
+    "_id" : NumberInt(55), 
+    "EmployeeID" : NumberInt(55), 
+    "Name" : "Demetrius Sims", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(347438006), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(4), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Accident and emergency (A&E)"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000191), 
+        NumberInt(100000714), 
+        NumberInt(100000719)
+    ]
+}
+{ 
+    "_id" : NumberInt(56), 
+    "EmployeeID" : NumberInt(56), 
+    "Name" : "Cullen Perez", 
+    "Position" : "hematology", 
+    "SSN" : NumberInt(898286199), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(7), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Breast Screening"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000067), 
+        NumberInt(100000334), 
+        NumberInt(100000475), 
+        NumberInt(100000597), 
+        NumberInt(100000624)
+    ]
+}
+{ 
+    "_id" : NumberInt(57), 
+    "EmployeeID" : NumberInt(57), 
+    "Name" : "Zephr Levy", 
+    "Position" : "Phrenology ", 
+    "SSN" : NumberInt(789820841), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Modified radical mastectomy", 
+            "Cost" : 7274.0
+        }, 
+        "CertificationDate" : ISODate("2020-03-06T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-03-06T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000071), 
+        "Procedures" : {
+            "Name" : "Appendectomy", 
+            "Cost" : 33000.0
+        }, 
+        "Stay" : NumberInt(3239), 
+        "DateUndergoes" : ISODate("2020-04-27T08:54:39.000+0000"), 
+        "Physician" : NumberInt(57), 
+        "AssistingNurse" : NumberInt(273)
+    }, 
+    "Patient" : [
+        NumberInt(100000335), 
+        NumberInt(100000629)
+    ]
+}
+{ 
+    "_id" : NumberInt(58), 
+    "EmployeeID" : NumberInt(58), 
+    "Name" : "Cora Simmons", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(379811419), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000136), 
+        NumberInt(100000209), 
+        NumberInt(100000448), 
+        NumberInt(100000546), 
+        NumberInt(100000724)
+    ]
+}
+{ 
+    "_id" : NumberInt(59), 
+    "EmployeeID" : NumberInt(59), 
+    "Name" : "Ursula Simon", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(556282776), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000198), 
+        NumberInt(100000222), 
+        NumberInt(100000315), 
+        NumberInt(100000761), 
+        NumberInt(100000815)
+    ]
+}
+{ 
+    "_id" : NumberInt(60), 
+    "EmployeeID" : NumberInt(60), 
+    "Name" : "Priscilla West", 
+    "Position" : "Cardiology", 
+    "SSN" : NumberInt(828711712), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000243)
+    ]
+}
+{ 
+    "_id" : NumberInt(61), 
+    "EmployeeID" : NumberInt(61), 
+    "Name" : "Linda Andrews", 
+    "Position" : "Endocrinology", 
+    "SSN" : NumberInt(463141569), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(11), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Nutrition and Dietetics"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000006), 
+        NumberInt(100000206), 
+        NumberInt(100000542), 
+        NumberInt(100000578), 
+        NumberInt(100000794)
+    ]
+}
+{ 
+    "_id" : NumberInt(62), 
+    "EmployeeID" : NumberInt(62), 
+    "Name" : "Patrick Kramer", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(147338779), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(7), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Breast Screening"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Prostatectomy", 
+            "Cost" : 35000.0
+        }, 
+        "CertificationDate" : ISODate("2020-01-03T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-01-03T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000014), 
+        NumberInt(100000177), 
+        NumberInt(100000412), 
+        NumberInt(100000489), 
+        NumberInt(100000686), 
+        NumberInt(100000826), 
+        NumberInt(100000960)
+    ]
+}
+{ 
+    "_id" : NumberInt(63), 
+    "EmployeeID" : NumberInt(63), 
+    "Name" : "Nathan Wolfe", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(288172739), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(8), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Burn Center"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Carotid endarterectomy", 
+            "Cost" : 15000.0
+        }, 
+        "CertificationDate" : ISODate("2020-03-31T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-03-31T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000607), 
+        "Procedures" : {
+            "Name" : "Cataract surgery", 
+            "Cost" : 3500.0
+        }, 
+        "Stay" : NumberInt(3251), 
+        "DateUndergoes" : ISODate("2020-04-23T13:32:01.000+0000"), 
+        "Physician" : NumberInt(63), 
+        "AssistingNurse" : NumberInt(130)
+    }, 
+    "Patient" : [
+        NumberInt(100000038), 
+        NumberInt(100000133), 
+        NumberInt(100000212), 
+        NumberInt(100000399), 
+        NumberInt(100000500), 
+        NumberInt(100000577), 
+        NumberInt(100000696), 
+        NumberInt(100000851), 
+        NumberInt(100000969)
+    ]
+}
+{ 
+    "_id" : NumberInt(64), 
+    "EmployeeID" : NumberInt(64), 
+    "Name" : "Brody Strong", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(352013789), 
+    "Department" : {
+        "DepartmentID" : NumberInt(17), 
+        "Name" : "Gynecology"
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(8), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Burn Center"
+        }, 
+        {
+            "Department" : NumberInt(19), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Burn Center"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000090), 
+        NumberInt(100000127), 
+        NumberInt(100000347), 
+        NumberInt(100000379), 
+        NumberInt(100000613), 
+        NumberInt(100000707)
+    ]
+}
+{ 
+    "_id" : NumberInt(65), 
+    "EmployeeID" : NumberInt(65), 
+    "Name" : "Edward Gallegos", 
+    "Position" : "Phrenology ", 
+    "SSN" : NumberInt(658880066), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000074), 
+        NumberInt(100000268), 
+        NumberInt(100000416), 
+        NumberInt(100000437), 
+        NumberInt(100000472), 
+        NumberInt(100000681), 
+        NumberInt(100000758), 
+        NumberInt(100000804), 
+        NumberInt(100000978)
+    ]
+}
+{ 
+    "_id" : NumberInt(66), 
+    "EmployeeID" : NumberInt(66), 
+    "Name" : "Forrest Skinner", 
+    "Position" : "Oncology", 
+    "SSN" : NumberInt(453791101), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Appendectomy", 
+            "Cost" : 33000.0
+        }, 
+        "CertificationDate" : ISODate("2018-12-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2019-12-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000707), 
+        "Procedures" : {
+            "Name" : "Autolytic debridement", 
+            "Cost" : 6700.0
+        }, 
+        "Stay" : NumberInt(3276), 
+        "DateUndergoes" : ISODate("2020-04-28T08:52:47.000+0000"), 
+        "Physician" : NumberInt(66), 
+        "AssistingNurse" : NumberInt(401)
+    }, 
+    "Patient" : [
+        NumberInt(100000060), 
+        NumberInt(100000086), 
+        NumberInt(100000515), 
+        NumberInt(100000560), 
+        NumberInt(100000652), 
+        NumberInt(100000828), 
+        NumberInt(100000848), 
+        NumberInt(100000933)
+    ]
+}
+{ 
+    "_id" : NumberInt(67), 
+    "EmployeeID" : NumberInt(67), 
+    "Name" : "Talon Alvarado", 
+    "Position" : "Gastroenterology", 
+    "SSN" : NumberInt(435707371), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Reverse rhinoplasty", 
+            "Cost" : 15000.0
+        }, 
+        "CertificationDate" : ISODate("2020-03-29T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-03-29T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000087), 
+        "Procedures" : {
+            "Name" : "Cesarean section", 
+            "Cost" : 20000.0
+        }, 
+        "Stay" : NumberInt(3306), 
+        "DateUndergoes" : ISODate("2020-04-22T10:45:44.000+0000"), 
+        "Physician" : NumberInt(67), 
+        "AssistingNurse" : NumberInt(518)
+    }, 
+    "Patient" : [
+        NumberInt(100000030), 
+        NumberInt(100000349), 
+        NumberInt(100000397), 
+        NumberInt(100000498), 
+        NumberInt(100000639), 
+        NumberInt(100000676), 
+        NumberInt(100000744), 
+        NumberInt(100000799)
+    ]
+}
+{ 
+    "_id" : NumberInt(68), 
+    "EmployeeID" : NumberInt(68), 
+    "Name" : "Debra Goodwin", 
+    "Position" : "Endocrinology", 
+    "SSN" : NumberInt(505720294), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Carotid endarterectomy", 
+            "Cost" : 15000.0
+        }, 
+        "CertificationDate" : ISODate("2020-03-20T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-03-20T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000034), 
+        "Procedures" : {
+            "Name" : "Prostatectomy", 
+            "Cost" : 35000.0
+        }, 
+        "Stay" : NumberInt(3310), 
+        "DateUndergoes" : ISODate("2020-04-26T07:52:27.000+0000"), 
+        "Physician" : NumberInt(68), 
+        "AssistingNurse" : NumberInt(150)
+    }, 
+    "Patient" : [
+        NumberInt(100000135), 
+        NumberInt(100000687), 
+        NumberInt(100000976), 
+        NumberInt(100000984)
+    ]
+}
+{ 
+    "_id" : NumberInt(69), 
+    "EmployeeID" : NumberInt(69), 
+    "Name" : "Brenna Rivers", 
+    "Position" : "Gastroenterology", 
+    "SSN" : NumberInt(217548885), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000108), 
+        NumberInt(100000422), 
+        NumberInt(100000730), 
+        NumberInt(100000763)
+    ]
+}
+{ 
+    "_id" : NumberInt(70), 
+    "EmployeeID" : NumberInt(70), 
+    "Name" : "Bertha Alvarado", 
+    "Position" : "Oncology", 
+    "SSN" : NumberInt(749899207), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(13), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Critical Care"
+        }, 
+        {
+            "Department" : NumberInt(25), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Critical Care"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000056), 
+        NumberInt(100000520), 
+        NumberInt(100000921)
+    ]
+}
+{ 
+    "_id" : NumberInt(71), 
+    "EmployeeID" : NumberInt(71), 
+    "Name" : "Dawn Reilly", 
+    "Position" : "Hematology", 
+    "SSN" : NumberInt(694715211), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(24), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Pharmacy"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000150), 
+        NumberInt(100000320), 
+        NumberInt(100000329), 
+        NumberInt(100000342), 
+        NumberInt(100000385), 
+        NumberInt(100000881)
+    ]
+}
+{ 
+    "_id" : NumberInt(72), 
+    "EmployeeID" : NumberInt(72), 
+    "Name" : "Ann Glenn", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(949379487), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Partial colectomy", 
+            "Cost" : 31601.0
+        }, 
+        "CertificationDate" : ISODate("2020-01-15T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-01-15T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000008), 
+        "Procedures" : {
+            "Name" : "Tonsillectomy", 
+            "Cost" : 5442.0
+        }, 
+        "Stay" : NumberInt(3251), 
+        "DateUndergoes" : ISODate("2020-04-21T10:52:32.000+0000"), 
+        "Physician" : NumberInt(72), 
+        "AssistingNurse" : NumberInt(133)
+    }, 
+    "Patient" : [
+        NumberInt(100000185), 
+        NumberInt(100000536), 
+        NumberInt(100000562), 
+        NumberInt(100000610), 
+        NumberInt(100000632), 
+        NumberInt(100000713), 
+        NumberInt(100000930)
+    ]
+}
+{ 
+    "_id" : NumberInt(73), 
+    "EmployeeID" : NumberInt(73), 
+    "Name" : "Carly Jones", 
+    "Position" : "Cardiology", 
+    "SSN" : NumberInt(848052301), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000002), 
+        NumberInt(100000421), 
+        NumberInt(100000443), 
+        NumberInt(100000682), 
+        NumberInt(100000698), 
+        NumberInt(100000889), 
+        NumberInt(100000891)
+    ]
+}
+{ 
+    "_id" : NumberInt(74), 
+    "EmployeeID" : NumberInt(74), 
+    "Name" : "Karleigh Haynes", 
+    "Position" : "Phrenology ", 
+    "SSN" : NumberInt(629488741), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000016), 
+        NumberInt(100000464), 
+        NumberInt(100000723), 
+        NumberInt(100000966)
+    ]
+}
+{ 
+    "_id" : NumberInt(75), 
+    "EmployeeID" : NumberInt(75), 
+    "Name" : "Ian Snider", 
+    "Position" : "Cardiology", 
+    "SSN" : NumberInt(387771015), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(15), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Discharge Lounge"
+        }, 
+        {
+            "Department" : NumberInt(16), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Discharge Lounge"
+        }, 
+        {
+            "Department" : NumberInt(28), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Discharge Lounge"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Breast biopsy", 
+            "Cost" : 500.0
+        }, 
+        "CertificationDate" : ISODate("2020-05-15T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-05-15T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000475), 
+        "Procedures" : {
+            "Name" : "Partial colectomy", 
+            "Cost" : 31601.0
+        }, 
+        "Stay" : NumberInt(3255), 
+        "DateUndergoes" : ISODate("2020-04-27T21:25:35.000+0000"), 
+        "Physician" : NumberInt(75), 
+        "AssistingNurse" : NumberInt(262)
+    }, 
+    "Patient" : [
+        NumberInt(100000073), 
+        NumberInt(100000076), 
+        NumberInt(100000167), 
+        NumberInt(100000174), 
+        NumberInt(100000274), 
+        NumberInt(100000304), 
+        NumberInt(100000734), 
+        NumberInt(100000737), 
+        NumberInt(100000816), 
+        NumberInt(100000838), 
+        NumberInt(100000879), 
+        NumberInt(100000952), 
+        NumberInt(100000974)
+    ]
+}
+{ 
+    "_id" : NumberInt(76), 
+    "EmployeeID" : NumberInt(76), 
+    "Name" : "Jessica Montoya", 
+    "Position" : "Oncology", 
+    "SSN" : NumberInt(889175566), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Modified radical mastectomy", 
+            "Cost" : 7274.0
+        }, 
+        "CertificationDate" : ISODate("2018-12-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2019-12-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000634), 
+        "Procedures" : {
+            "Name" : "Dilation and curettage", 
+            "Cost" : 5253.0
+        }, 
+        "Stay" : NumberInt(3235), 
+        "DateUndergoes" : ISODate("2020-04-26T01:36:59.000+0000"), 
+        "Physician" : NumberInt(76), 
+        "AssistingNurse" : NumberInt(214)
+    }, 
+    "Patient" : [
+        NumberInt(100000237), 
+        NumberInt(100000557), 
+        NumberInt(100000779)
+    ]
+}
+{ 
+    "_id" : NumberInt(77), 
+    "EmployeeID" : NumberInt(77), 
+    "Name" : "Illiana Sweeney", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(146714555), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "spinal fusion surgery", 
+            "Cost" : 14000.0
+        }, 
+        "CertificationDate" : ISODate("2020-05-04T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-05-05T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000083), 
+        "Procedures" : {
+            "Name" : "Breast biopsy", 
+            "Cost" : 500.0
+        }, 
+        "Stay" : NumberInt(3237), 
+        "DateUndergoes" : ISODate("2020-04-26T03:03:39.000+0000"), 
+        "Physician" : NumberInt(77), 
+        "AssistingNurse" : NumberInt(575)
+    }, 
+    "Patient" : [
+        NumberInt(100000102), 
+        NumberInt(100000180), 
+        NumberInt(100000310), 
+        NumberInt(100000529), 
+        NumberInt(100000733)
+    ]
+}
+{ 
+    "_id" : NumberInt(78), 
+    "EmployeeID" : NumberInt(78), 
+    "Name" : "Cameron Collins", 
+    "Position" : "Endocrinology", 
+    "SSN" : NumberInt(408629747), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(10), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Central Sterile Services(CSSD)"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000001), 
+        NumberInt(100000256), 
+        NumberInt(100000283), 
+        NumberInt(100000497), 
+        NumberInt(100000591), 
+        NumberInt(100000732), 
+        NumberInt(100000887), 
+        NumberInt(100000935)
+    ]
+}
+{ 
+    "_id" : NumberInt(79), 
+    "EmployeeID" : NumberInt(79), 
+    "Name" : "Lysandra Sweeney", 
+    "Position" : "P", 
+    "SSN" : NumberInt(525934213), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000036), 
+        NumberInt(100000181), 
+        NumberInt(100000626), 
+        NumberInt(100000637), 
+        NumberInt(100000770)
+    ]
+}
+{ 
+    "_id" : NumberInt(80), 
+    "EmployeeID" : NumberInt(80), 
+    "Name" : "Carol Justice", 
+    "Position" : "Oncology", 
+    "SSN" : NumberInt(136552803), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(13), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Critical Care"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000604), 
+        "Procedures" : {
+            "Name" : "Cesarean section", 
+            "Cost" : 20000.0
+        }, 
+        "Stay" : NumberInt(3275), 
+        "DateUndergoes" : ISODate("2020-04-23T10:06:30.000+0000"), 
+        "Physician" : NumberInt(80), 
+        "AssistingNurse" : NumberInt(393)
+    }, 
+    "Patient" : [
+        NumberInt(100000200), 
+        NumberInt(100000324), 
+        NumberInt(100000389), 
+        NumberInt(100000417), 
+        NumberInt(100000789), 
+        NumberInt(100000817), 
+        NumberInt(100000968)
+    ]
+}
+{ 
+    "_id" : NumberInt(81), 
+    "EmployeeID" : NumberInt(81), 
+    "Name" : "Sylvia Maynard", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(356065359), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Coronary artery bypass", 
+            "Cost" : 40000.0
+        }, 
+        "CertificationDate" : ISODate("2020-02-07T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-02-07T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000142), 
+        NumberInt(100000506), 
+        NumberInt(100000532), 
+        NumberInt(100000914)
+    ]
+}
+{ 
+    "_id" : NumberInt(82), 
+    "EmployeeID" : NumberInt(82), 
+    "Name" : "Geoffrey Richardson", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(765057204), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Modified radical mastectomy", 
+            "Cost" : 7274.0
+        }, 
+        "CertificationDate" : ISODate("2020-01-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-01-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000106), 
+        NumberInt(100000404), 
+        NumberInt(100000447), 
+        NumberInt(100000701), 
+        NumberInt(100000742), 
+        NumberInt(100000878), 
+        NumberInt(100000942)
+    ]
+}
+{ 
+    "_id" : NumberInt(83), 
+    "EmployeeID" : NumberInt(83), 
+    "Name" : "Alan Benson", 
+    "Position" : "Hematology", 
+    "SSN" : NumberInt(345844438), 
+    "Department" : {
+        "DepartmentID" : NumberInt(15), 
+        "Name" : "Discharge Lounge"
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Reverse rhinoplasty", 
+            "Cost" : 15000.0
+        }, 
+        "CertificationDate" : ISODate("2020-03-26T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-03-27T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000359), 
+        NumberInt(100000695), 
+        NumberInt(100000784)
+    ]
+}
+{ 
+    "_id" : NumberInt(84), 
+    "EmployeeID" : NumberInt(84), 
+    "Name" : "Martina Wilcox", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(156113484), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(10), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Central Sterile Services(CSSD)"
+        }, 
+        {
+            "Department" : NumberInt(27), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Central Sterile Services(CSSD)"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000042), 
+        NumberInt(100000081), 
+        NumberInt(100000270), 
+        NumberInt(100000327), 
+        NumberInt(100000419), 
+        NumberInt(100000488), 
+        NumberInt(100000544), 
+        NumberInt(100000813), 
+        NumberInt(100000814)
+    ]
+}
+{ 
+    "_id" : NumberInt(85), 
+    "EmployeeID" : NumberInt(85), 
+    "Name" : "Ashton Farrell", 
+    "Position" : "Rhematology", 
+    "SSN" : NumberInt(568439973), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(11), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Nutrition and Dietetics"
+        }, 
+        {
+            "Department" : NumberInt(22), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Nutrition and Dietetics"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Partial colectomy", 
+            "Cost" : 31601.0
+        }, 
+        "CertificationDate" : ISODate("2018-12-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2019-12-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000758), 
+        "Procedures" : {
+            "Name" : "Laminectomy", 
+            "Cost" : 77000.0
+        }, 
+        "Stay" : NumberInt(3245), 
+        "DateUndergoes" : ISODate("2020-04-28T00:04:27.000+0000"), 
+        "Physician" : NumberInt(85), 
+        "AssistingNurse" : NumberInt(460)
+    }, 
+    "Patient" : [
+        NumberInt(100000574), 
+        NumberInt(100000747), 
+        NumberInt(100000845)
+    ]
+}
+{ 
+    "_id" : NumberInt(86), 
+    "EmployeeID" : NumberInt(86), 
+    "Name" : "Rebekah Clay", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(865666387), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000479), 
+        NumberInt(100000530), 
+        NumberInt(100000539), 
+        NumberInt(100000581), 
+        NumberInt(100000585), 
+        NumberInt(100000722), 
+        NumberInt(100000745)
+    ]
+}
+{ 
+    "_id" : NumberInt(87), 
+    "EmployeeID" : NumberInt(87), 
+    "Name" : "Igor Harmon", 
+    "Position" : "Gastroenterology", 
+    "SSN" : NumberInt(242114546), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000115), 
+        NumberInt(100000117), 
+        NumberInt(100000134), 
+        NumberInt(100000450)
+    ]
+}
+{ 
+    "_id" : NumberInt(88), 
+    "EmployeeID" : NumberInt(88), 
+    "Name" : "Jeanette Dickerson", 
+    "Position" : "Infectious Diseases", 
+    "SSN" : NumberInt(299357284), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(12), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Coronary Care Unit (CCU)"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Tonsillectomy", 
+            "Cost" : 5442.0
+        }, 
+        "CertificationDate" : ISODate("2018-05-02T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2019-05-02T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000186), 
+        "Procedures" : {
+            "Name" : "Partial colectomy", 
+            "Cost" : 31601.0
+        }, 
+        "Stay" : NumberInt(3297), 
+        "DateUndergoes" : ISODate("2020-04-29T05:39:49.000+0000"), 
+        "Physician" : NumberInt(88), 
+        "AssistingNurse" : NumberInt(371)
+    }, 
+    "Patient" : [
+        NumberInt(100000240), 
+        NumberInt(100000490), 
+        NumberInt(100000512), 
+        NumberInt(100000615), 
+        NumberInt(100000749), 
+        NumberInt(100000916), 
+        NumberInt(100000972), 
+        NumberInt(100000981)
+    ]
+}
+{ 
+    "_id" : NumberInt(89), 
+    "EmployeeID" : NumberInt(89), 
+    "Name" : "Odessa Dillard", 
+    "Position" : "Hematology", 
+    "SSN" : NumberInt(884961343), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(23), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Otolaryngology(ENT)"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000235), 
+        NumberInt(100000430), 
+        NumberInt(100000642)
+    ]
+}
+{ 
+    "_id" : NumberInt(90), 
+    "EmployeeID" : NumberInt(90), 
+    "Name" : "Brooke Horn", 
+    "Position" : "Oncology", 
+    "SSN" : NumberInt(828185895), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000120), 
+        NumberInt(100000157), 
+        NumberInt(100000284), 
+        NumberInt(100000505), 
+        NumberInt(100000592), 
+        NumberInt(100000601), 
+        NumberInt(100000946)
+    ]
+}
+{ 
+    "_id" : NumberInt(91), 
+    "EmployeeID" : NumberInt(91), 
+    "Name" : "Gay Byers", 
+    "Position" : "Endocrinology", 
+    "SSN" : NumberInt(808489569), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000248), 
+        NumberInt(100000514), 
+        NumberInt(100000622), 
+        NumberInt(100000880), 
+        NumberInt(100000938)
+    ]
+}
+{ 
+    "_id" : NumberInt(92), 
+    "EmployeeID" : NumberInt(92), 
+    "Name" : "Keely Lott", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(456946437), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000189), 
+        NumberInt(100000381), 
+        NumberInt(100000477), 
+        NumberInt(100000634), 
+        NumberInt(100000792), 
+        NumberInt(100000877), 
+        NumberInt(100000928)
+    ]
+}
+{ 
+    "_id" : NumberInt(93), 
+    "EmployeeID" : NumberInt(93), 
+    "Name" : "Orson Franco", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(377372668), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000009), 
+        NumberInt(100000223), 
+        NumberInt(100000287), 
+        NumberInt(100000328), 
+        NumberInt(100000345), 
+        NumberInt(100000580), 
+        NumberInt(100000598), 
+        NumberInt(100000648), 
+        NumberInt(100000994)
+    ]
+}
+{ 
+    "_id" : NumberInt(94), 
+    "EmployeeID" : NumberInt(94), 
+    "Name" : "Joel Warner", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(416161051), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000113), 
+        NumberInt(100000358), 
+        NumberInt(100000446), 
+        NumberInt(100000659), 
+        NumberInt(100000690), 
+        NumberInt(100000803), 
+        NumberInt(100000924), 
+        NumberInt(100000993)
+    ]
+}
+{ 
+    "_id" : NumberInt(95), 
+    "EmployeeID" : NumberInt(95), 
+    "Name" : "Armando Johnston", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(875626450), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000048), 
+        NumberInt(100000232), 
+        NumberInt(100000301), 
+        NumberInt(100000403), 
+        NumberInt(100000480), 
+        NumberInt(100000755), 
+        NumberInt(100000929), 
+        NumberInt(100000967)
+    ]
+}
+{ 
+    "_id" : NumberInt(96), 
+    "EmployeeID" : NumberInt(96), 
+    "Name" : "Jayme Mendoza", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(579981367), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(16), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Gastroenterology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000052), 
+        NumberInt(100000684)
+    ]
+}
+{ 
+    "_id" : NumberInt(97), 
+    "EmployeeID" : NumberInt(97), 
+    "Name" : "Paki Oliver", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(745419330), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Prostatectomy", 
+            "Cost" : 35000.0
+        }, 
+        "CertificationDate" : ISODate("2020-01-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-01-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000299), 
+        NumberInt(100001000)
+    ]
+}
+{ 
+    "_id" : NumberInt(98), 
+    "EmployeeID" : NumberInt(98), 
+    "Name" : "Dieter Garcia", 
+    "Position" : "Gastroenterology", 
+    "SSN" : NumberInt(546946355), 
+    "Department" : {
+        "DepartmentID" : NumberInt(19), 
+        "Name" : "Nephrology"
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000318), 
+        NumberInt(100000527), 
+        NumberInt(100000727), 
+        NumberInt(100000893), 
+        NumberInt(100000904)
+    ]
+}
+{ 
+    "_id" : NumberInt(99), 
+    "EmployeeID" : NumberInt(99), 
+    "Name" : "Chaim Alston", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(955243738), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(26), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Rheumatology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000101), 
+        NumberInt(100000236), 
+        NumberInt(100000955)
+    ]
+}
+{ 
+    "_id" : NumberInt(100), 
+    "EmployeeID" : NumberInt(100), 
+    "Name" : "Chester Velez", 
+    "Position" : "Gastroenterology", 
+    "SSN" : NumberInt(145312883), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Tonsillectomy", 
+            "Cost" : 5442.0
+        }, 
+        "CertificationDate" : ISODate("2018-12-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2019-12-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000011), 
+        "Procedures" : {
+            "Name" : "Cholecystectomy", 
+            "Cost" : 11234.0
+        }, 
+        "Stay" : NumberInt(3283), 
+        "DateUndergoes" : ISODate("2020-04-25T16:53:13.000+0000"), 
+        "Physician" : NumberInt(100), 
+        "AssistingNurse" : NumberInt(543)
+    }, 
+    "Patient" : [
+        NumberInt(100000045), 
+        NumberInt(100000202), 
+        NumberInt(100000305), 
+        NumberInt(100000455), 
+        NumberInt(100000786)
+    ]
+}
+{ 
+    "_id" : NumberInt(101), 
+    "EmployeeID" : NumberInt(101), 
+    "Name" : "Illiana Q. Bond", 
+    "Position" : "Vascular Surgery", 
+    "SSN" : NumberInt(599257202), 
+    "Department" : {
+        "DepartmentID" : NumberInt(2), 
+        "Name" : "Surgery"
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000840), 
+        "Procedures" : {
+            "Name" : "Cataract surgery", 
+            "Cost" : 3500.0
+        }, 
+        "Stay" : NumberInt(3235), 
+        "DateUndergoes" : ISODate("2020-04-22T00:24:46.000+0000"), 
+        "Physician" : NumberInt(101), 
+        "AssistingNurse" : NumberInt(546)
+    }, 
+    "Patient" : [
+
+    ]
+}
+{ 
+    "_id" : NumberInt(102), 
+    "EmployeeID" : NumberInt(102), 
+    "Name" : "Joshua Acevedo", 
+    "Position" : "pulmonology", 
+    "SSN" : NumberInt(672301146), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000197), 
+        NumberInt(100000772), 
+        NumberInt(100000855)
+    ]
+}
+{ 
+    "_id" : NumberInt(103), 
+    "EmployeeID" : NumberInt(103), 
+    "Name" : "Ivory Z. Albert", 
+    "Position" : "Pediatric surgery", 
+    "SSN" : NumberInt(206182960), 
+    "Department" : {
+        "DepartmentID" : NumberInt(6), 
+        "Name" : "Anesthetics"
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Autolytic debridement", 
+            "Cost" : 6700.0
+        }, 
+        "CertificationDate" : ISODate("2020-08-14T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-08-24T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000520), 
+        "Procedures" : {
+            "Name" : "Inguinal hernia repair", 
+            "Cost" : 6200.0
+        }, 
+        "Stay" : NumberInt(3273), 
+        "DateUndergoes" : ISODate("2020-04-24T20:41:14.000+0000"), 
+        "Physician" : NumberInt(103), 
+        "AssistingNurse" : NumberInt(514)
+    }, 
+    "Patient" : [
+        NumberInt(100000100), 
+        NumberInt(100000371), 
+        NumberInt(100000709), 
+        NumberInt(100000890), 
+        NumberInt(100000899)
+    ]
+}
+{ 
+    "_id" : NumberInt(104), 
+    "EmployeeID" : NumberInt(104), 
+    "Name" : "Marsden Q. Lancaster", 
+    "Position" : "Obstetrician", 
+    "SSN" : NumberInt(606704559), 
+    "Department" : {
+        "DepartmentID" : NumberInt(5), 
+        "Name" : "Maternity"
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000869), 
+        "Procedures" : {
+            "Name" : "Mastectomy", 
+            "Cost" : 20392.0
+        }, 
+        "Stay" : NumberInt(3252), 
+        "DateUndergoes" : ISODate("2020-04-26T08:46:07.000+0000"), 
+        "Physician" : NumberInt(104), 
+        "AssistingNurse" : NumberInt(521)
+    }, 
+    "Patient" : [
+        NumberInt(100000029), 
+        NumberInt(100000168), 
+        NumberInt(100000428), 
+        NumberInt(100000582), 
+        NumberInt(100000776), 
+        NumberInt(100000875), 
+        NumberInt(100000894)
+    ]
+}
+{ 
+    "_id" : NumberInt(105), 
+    "EmployeeID" : NumberInt(105), 
+    "Name" : "Macon V. Mercer", 
+    "Position" : "Obstetrician", 
+    "SSN" : NumberInt(525063910), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(6), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Anesthetics"
+        }, 
+        {
+            "Department" : NumberInt(27), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Anesthetics"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000096), 
+        "Procedures" : {
+            "Name" : "Modified radical mastectomy", 
+            "Cost" : 7274.0
+        }, 
+        "Stay" : NumberInt(3238), 
+        "DateUndergoes" : ISODate("2020-04-23T19:00:40.000+0000"), 
+        "Physician" : NumberInt(105), 
+        "AssistingNurse" : NumberInt(149)
+    }, 
+    "Patient" : [
+        NumberInt(100000164), 
+        NumberInt(100000183), 
+        NumberInt(100000383), 
+        NumberInt(100000445), 
+        NumberInt(100000609), 
+        NumberInt(100000704)
+    ]
+}
+{ 
+    "_id" : NumberInt(106), 
+    "EmployeeID" : NumberInt(106), 
+    "Name" : "Ursula E. Parks", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(606999507), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(3), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Psychiatry"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Cataract surgery", 
+            "Cost" : 3500.0
+        }, 
+        "CertificationDate" : ISODate("2020-07-22T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-07-27T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000028), 
+        "Procedures" : {
+            "Name" : "Hysterectomy", 
+            "Cost" : 7741.0
+        }, 
+        "Stay" : NumberInt(3228), 
+        "DateUndergoes" : ISODate("2020-04-22T16:12:09.000+0000"), 
+        "Physician" : NumberInt(106), 
+        "AssistingNurse" : NumberInt(461)
+    }, 
+    "Patient" : [
+        NumberInt(100000020), 
+        NumberInt(100000041), 
+        NumberInt(100000088), 
+        NumberInt(100000138), 
+        NumberInt(100000139), 
+        NumberInt(100000276), 
+        NumberInt(100000384), 
+        NumberInt(100000829), 
+        NumberInt(100000927)
+    ]
+}
+{ 
+    "_id" : NumberInt(107), 
+    "EmployeeID" : NumberInt(107), 
+    "Name" : "Nash T. Sloan", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(377712452), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(11), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Nutrition and Dietetics"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Cesarean section", 
+            "Cost" : 20000.0
+        }, 
+        "CertificationDate" : ISODate("2020-08-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-08-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000428), 
+        "Procedures" : {
+            "Name" : "Prostatectomy", 
+            "Cost" : 35000.0
+        }, 
+        "Stay" : NumberInt(3295), 
+        "DateUndergoes" : ISODate("2020-04-25T19:29:37.000+0000"), 
+        "Physician" : NumberInt(107), 
+        "AssistingNurse" : NumberInt(237)
+    }, 
+    "Patient" : [
+        NumberInt(100000825)
+    ]
+}
+{ 
+    "_id" : NumberInt(108), 
+    "EmployeeID" : NumberInt(108), 
+    "Name" : "Marah C. Rojas", 
+    "Position" : "Family Physician", 
+    "SSN" : NumberInt(473931945), 
+    "Department" : {
+        "DepartmentID" : NumberInt(1), 
+        "Name" : "General Medicine"
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000154), 
+        NumberInt(100000496), 
+        NumberInt(100000653), 
+        NumberInt(100000674), 
+        NumberInt(100000951)
+    ]
+}
+{ 
+    "_id" : NumberInt(109), 
+    "EmployeeID" : NumberInt(109), 
+    "Name" : "Forrest D. Leblanc", 
+    "Position" : "Family Physician", 
+    "SSN" : NumberInt(597331433), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Partial colectomy", 
+            "Cost" : 31601.0
+        }, 
+        "CertificationDate" : ISODate("2020-02-07T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-02-07T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000220), 
+        "Procedures" : {
+            "Name" : "Reverse rhinoplasty", 
+            "Cost" : 15000.0
+        }, 
+        "Stay" : NumberInt(3298), 
+        "DateUndergoes" : ISODate("2020-04-24T11:35:51.000+0000"), 
+        "Physician" : NumberInt(109), 
+        "AssistingNurse" : NumberInt(375)
+    }, 
+    "Patient" : [
+        NumberInt(100000027), 
+        NumberInt(100000176), 
+        NumberInt(100000231), 
+        NumberInt(100000427), 
+        NumberInt(100000664)
+    ]
+}
+{ 
+    "_id" : NumberInt(110), 
+    "EmployeeID" : NumberInt(110), 
+    "Name" : "Taylor H. Armstrong", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(768728070), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(10), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Central Sterile Services(CSSD)"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000295), 
+        NumberInt(100000915)
+    ]
+}
+{ 
+    "_id" : NumberInt(111), 
+    "EmployeeID" : NumberInt(111), 
+    "Name" : "Zephania Finch", 
+    "Position" : "Obstetrician", 
+    "SSN" : NumberInt(164640061), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000587), 
+        NumberInt(100000846)
+    ]
+}
+{ 
+    "_id" : NumberInt(112), 
+    "EmployeeID" : NumberInt(112), 
+    "Name" : "Mannix Nash", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(384833713), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000839)
+    ]
+}
+{ 
+    "_id" : NumberInt(113), 
+    "EmployeeID" : NumberInt(113), 
+    "Name" : "Acton H. Benton", 
+    "Position" : "Surgical Oncology", 
+    "SSN" : NumberInt(359873430), 
+    "Department" : {
+        "DepartmentID" : NumberInt(29), 
+        "Name" : "Oncology"
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(13), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Critical Care"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000357), 
+        NumberInt(100000720), 
+        NumberInt(100000764), 
+        NumberInt(100000775), 
+        NumberInt(100000866)
+    ]
+}
+{ 
+    "_id" : NumberInt(114), 
+    "EmployeeID" : NumberInt(114), 
+    "Name" : "Bernard Sheppard", 
+    "Position" : "Family Physician", 
+    "SSN" : NumberInt(873932518), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(13), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Critical Care"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000012), 
+        NumberInt(100000129), 
+        NumberInt(100000193), 
+        NumberInt(100000262), 
+        NumberInt(100000368), 
+        NumberInt(100000457), 
+        NumberInt(100000558), 
+        NumberInt(100000876)
+    ]
+}
+{ 
+    "_id" : NumberInt(115), 
+    "EmployeeID" : NumberInt(115), 
+    "Name" : "Dexter Spears", 
+    "Position" : "Pediatric Surgery", 
+    "SSN" : NumberInt(858889867), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Cataract surgery", 
+            "Cost" : 3500.0
+        }, 
+        "CertificationDate" : ISODate("2020-01-03T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-01-03T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000114), 
+        "Procedures" : {
+            "Name" : "Partial colectomy", 
+            "Cost" : 31601.0
+        }, 
+        "Stay" : NumberInt(3260), 
+        "DateUndergoes" : ISODate("2020-04-28T17:11:14.000+0000"), 
+        "Physician" : NumberInt(115), 
+        "AssistingNurse" : NumberInt(511)
+    }, 
+    "Patient" : [
+        NumberInt(100000008), 
+        NumberInt(100000069), 
+        NumberInt(100000163), 
+        NumberInt(100000564), 
+        NumberInt(100000728)
+    ]
+}
+{ 
+    "_id" : NumberInt(116), 
+    "EmployeeID" : NumberInt(116), 
+    "Name" : "Yeo L. Workman", 
+    "Position" : "Family Physician", 
+    "SSN" : NumberInt(758368853), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(3), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Psychiatry"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Tonsillectomy", 
+            "Cost" : 5442.0
+        }, 
+        "CertificationDate" : ISODate("2020-08-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-08-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000307), 
+        NumberInt(100000484), 
+        NumberInt(100000524), 
+        NumberInt(100000630), 
+        NumberInt(100000953)
+    ]
+}
+{ 
+    "_id" : NumberInt(117), 
+    "EmployeeID" : NumberInt(117), 
+    "Name" : "Seth M. Ferrell", 
+    "Position" : "Vascular Surgery", 
+    "SSN" : NumberInt(237384421), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000501), 
+        "Procedures" : {
+            "Name" : "Autolytic debridement", 
+            "Cost" : 6700.0
+        }, 
+        "Stay" : NumberInt(3246), 
+        "DateUndergoes" : ISODate("2020-04-26T18:25:49.000+0000"), 
+        "Physician" : NumberInt(117), 
+        "AssistingNurse" : NumberInt(123)
+    }, 
+    "Patient" : [
+        NumberInt(100000862)
+    ]
+}
+{ 
+    "_id" : NumberInt(118), 
+    "EmployeeID" : NumberInt(118), 
+    "Name" : "Merrill D. Delacruz", 
+    "Position" : "Dermatologist", 
+    "SSN" : NumberInt(893447030), 
+    "Department" : {
+        "DepartmentID" : NumberInt(8), 
+        "Name" : "Burn Center"
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(5), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Maternity"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Modified radical mastectomy", 
+            "Cost" : 7274.0
+        }, 
+        "CertificationDate" : ISODate("2020-10-01T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-10-01T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000461), 
+        NumberInt(100000939)
+    ]
+}
+{ 
+    "_id" : NumberInt(119), 
+    "EmployeeID" : NumberInt(119), 
+    "Name" : "Kelsey Baldwin", 
+    "Position" : "Obstetrician", 
+    "SSN" : NumberInt(498036865), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000208), 
+        NumberInt(100000655)
+    ]
+}
+{ 
+    "_id" : NumberInt(120), 
+    "EmployeeID" : NumberInt(120), 
+    "Name" : "Dolan Bradford", 
+    "Position" : "Surgical Oncology", 
+    "SSN" : NumberInt(428631612), 
+    "Department" : {
+        "DepartmentID" : NumberInt(14), 
+        "Name" : "Diagnostic Imaging"
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000151), 
+        NumberInt(100000155), 
+        NumberInt(100000215), 
+        NumberInt(100000599), 
+        NumberInt(100000833)
+    ]
+}
+{ 
+    "_id" : NumberInt(121), 
+    "EmployeeID" : NumberInt(121), 
+    "Name" : "Akeem Matthews", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(339216750), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Hemorrhoidectomy", 
+            "Cost" : 5965.0
+        }, 
+        "CertificationDate" : ISODate("2020-01-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-01-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000382), 
+        "Procedures" : {
+            "Name" : "Breast biopsy", 
+            "Cost" : 500.0
+        }, 
+        "Stay" : NumberInt(3228), 
+        "DateUndergoes" : ISODate("2020-04-27T04:24:00.000+0000"), 
+        "Physician" : NumberInt(121), 
+        "AssistingNurse" : NumberInt(344)
+    }, 
+    "Patient" : [
+        NumberInt(100000584), 
+        NumberInt(100000692)
+    ]
+}
+{ 
+    "_id" : NumberInt(122), 
+    "EmployeeID" : NumberInt(122), 
+    "Name" : "Daniel Huber", 
+    "Position" : "Vascular Surgery", 
+    "SSN" : NumberInt(679297715), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(15), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Discharge Lounge"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000612), 
+        NumberInt(100000658), 
+        NumberInt(100000766), 
+        NumberInt(100000943)
+    ]
+}
+{ 
+    "_id" : NumberInt(123), 
+    "EmployeeID" : NumberInt(123), 
+    "Name" : "Allistair S. Bowman", 
+    "Position" : "Family Physician", 
+    "SSN" : NumberInt(768162497), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000062), 
+        NumberInt(100000104), 
+        NumberInt(100000487), 
+        NumberInt(100000521), 
+        NumberInt(100000589), 
+        NumberInt(100000618), 
+        NumberInt(100000977)
+    ]
+}
+{ 
+    "_id" : NumberInt(124), 
+    "EmployeeID" : NumberInt(124), 
+    "Name" : "Stuart Holman", 
+    "Position" : "Family Physician", 
+    "SSN" : NumberInt(644007390), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(19), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Nephrology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Partial colectomy", 
+            "Cost" : 31601.0
+        }, 
+        "CertificationDate" : ISODate("2020-09-29T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-09-29T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000200), 
+        "Procedures" : {
+            "Name" : "Partial colectomy", 
+            "Cost" : 31601.0
+        }, 
+        "Stay" : NumberInt(3276), 
+        "DateUndergoes" : ISODate("2020-04-26T14:44:00.000+0000"), 
+        "Physician" : NumberInt(124), 
+        "AssistingNurse" : NumberInt(109)
+    }, 
+    "Patient" : [
+        NumberInt(100000109), 
+        NumberInt(100000433), 
+        NumberInt(100000507)
+    ]
+}
+{ 
+    "_id" : NumberInt(125), 
+    "EmployeeID" : NumberInt(125), 
+    "Name" : "Zenaida T. Becker", 
+    "Position" : "Vascular Surgery", 
+    "SSN" : NumberInt(202136068), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(8), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Burn Center"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000087), 
+        NumberInt(100000099), 
+        NumberInt(100000204), 
+        NumberInt(100000267), 
+        NumberInt(100000494)
+    ]
+}
+{ 
+    "_id" : NumberInt(126), 
+    "EmployeeID" : NumberInt(126), 
+    "Name" : "Simon Cohen", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(714070077), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Cholecystectomy", 
+            "Cost" : 11234.0
+        }, 
+        "CertificationDate" : ISODate("2018-12-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2019-12-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000278), 
+        "Procedures" : {
+            "Name" : "Breast biopsy", 
+            "Cost" : 500.0
+        }, 
+        "Stay" : NumberInt(3236), 
+        "DateUndergoes" : ISODate("2020-04-26T21:41:48.000+0000"), 
+        "Physician" : NumberInt(126), 
+        "AssistingNurse" : NumberInt(395)
+    }, 
+    "Patient" : [
+        NumberInt(100000063), 
+        NumberInt(100000194), 
+        NumberInt(100000394), 
+        NumberInt(100000965)
+    ]
+}
+{ 
+    "_id" : NumberInt(127), 
+    "EmployeeID" : NumberInt(127), 
+    "Name" : "Alec H. Bishop", 
+    "Position" : "Otolaryngologist", 
+    "SSN" : NumberInt(744843511), 
+    "Department" : {
+        "DepartmentID" : NumberInt(10), 
+        "Name" : "Central Sterile Services(CSSD)"
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000112), 
+        NumberInt(100000354), 
+        NumberInt(100000739), 
+        NumberInt(100000741), 
+        NumberInt(100000791)
+    ]
+}
+{ 
+    "_id" : NumberInt(128), 
+    "EmployeeID" : NumberInt(128), 
+    "Name" : "Elton S. Albert", 
+    "Position" : "Pediatric Surgery", 
+    "SSN" : NumberInt(735109357), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000097), 
+        NumberInt(100000160), 
+        NumberInt(100000740), 
+        NumberInt(100000856)
+    ]
+}
+{ 
+    "_id" : NumberInt(129), 
+    "EmployeeID" : NumberInt(129), 
+    "Name" : "Rhea M. Duran", 
+    "Position" : "Family Physician", 
+    "SSN" : NumberInt(542362416), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000005), 
+        NumberInt(100000121), 
+        NumberInt(100000435), 
+        NumberInt(100000746), 
+        NumberInt(100000896)
+    ]
+}
+{ 
+    "_id" : NumberInt(130), 
+    "EmployeeID" : NumberInt(130), 
+    "Name" : "Castor Talley", 
+    "Position" : "Obstetrician", 
+    "SSN" : NumberInt(384519920), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000092), 
+        NumberInt(100000423), 
+        NumberInt(100000905), 
+        NumberInt(100000932)
+    ]
+}
+{ 
+    "_id" : NumberInt(131), 
+    "EmployeeID" : NumberInt(131), 
+    "Name" : "Camden D. Peck", 
+    "Position" : "Vascular Surgery", 
+    "SSN" : NumberInt(566096916), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(6), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Anesthetics"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000205), 
+        NumberInt(100000257), 
+        NumberInt(100000269), 
+        NumberInt(100000288), 
+        NumberInt(100000606), 
+        NumberInt(100000726), 
+        NumberInt(100000822)
+    ]
+}
+{ 
+    "_id" : NumberInt(132), 
+    "EmployeeID" : NumberInt(132), 
+    "Name" : "Aileen D. Hopkins", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(669790090), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Coronary artery bypass", 
+            "Cost" : 40000.0
+        }, 
+        "CertificationDate" : ISODate("2020-02-07T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-02-07T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000027), 
+        "Procedures" : {
+            "Name" : "Laminectomy", 
+            "Cost" : 77000.0
+        }, 
+        "Stay" : NumberInt(3216), 
+        "DateUndergoes" : ISODate("2020-04-23T02:56:56.000+0000"), 
+        "Physician" : NumberInt(132), 
+        "AssistingNurse" : NumberInt(462)
+    }, 
+    "Patient" : [
+        NumberInt(100000264), 
+        NumberInt(100000363), 
+        NumberInt(100000440), 
+        NumberInt(100000844)
+    ]
+}
+{ 
+    "_id" : NumberInt(133), 
+    "EmployeeID" : NumberInt(133), 
+    "Name" : "Rylee O. Davenport", 
+    "Position" : "Pediatric Surgery", 
+    "SSN" : NumberInt(295777481), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000213), 
+        NumberInt(100000369), 
+        NumberInt(100000491), 
+        NumberInt(100000525), 
+        NumberInt(100000950)
+    ]
+}
+{ 
+    "_id" : NumberInt(134), 
+    "EmployeeID" : NumberInt(134), 
+    "Name" : "Caesar M. Wagner", 
+    "Position" : "Obstetrician", 
+    "SSN" : NumberInt(577315109), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000046), 
+        NumberInt(100000091), 
+        NumberInt(100000290), 
+        NumberInt(100000393), 
+        NumberInt(100000611), 
+        NumberInt(100000627)
+    ]
+}
+{ 
+    "_id" : NumberInt(135), 
+    "EmployeeID" : NumberInt(135), 
+    "Name" : "Nissim Duran", 
+    "Position" : "Surgical Oncology", 
+    "SSN" : NumberInt(293505452), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000405), 
+        NumberInt(100000614), 
+        NumberInt(100000936)
+    ]
+}
+{ 
+    "_id" : NumberInt(136), 
+    "EmployeeID" : NumberInt(136), 
+    "Name" : "Brock Ballard", 
+    "Position" : "pediatric surgery", 
+    "SSN" : NumberInt(337041034), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000152), 
+        NumberInt(100000226), 
+        NumberInt(100000312), 
+        NumberInt(100000616)
+    ]
+}
+{ 
+    "_id" : NumberInt(137), 
+    "EmployeeID" : NumberInt(137), 
+    "Name" : "Troy U. Johns", 
+    "Position" : "Dermatologist", 
+    "SSN" : NumberInt(595956084), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Modified radical mastectomy", 
+            "Cost" : 7274.0
+        }, 
+        "CertificationDate" : ISODate("2020-01-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-01-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000029), 
+        "Procedures" : {
+            "Name" : "Hemorrhoidectomy", 
+            "Cost" : 5965.0
+        }, 
+        "Stay" : NumberInt(3234), 
+        "DateUndergoes" : ISODate("2020-04-29T01:00:06.000+0000"), 
+        "Physician" : NumberInt(137), 
+        "AssistingNurse" : NumberInt(448)
+    }, 
+    "Patient" : [
+        NumberInt(100000053), 
+        NumberInt(100000080), 
+        NumberInt(100000413), 
+        NumberInt(100000650)
+    ]
+}
+{ 
+    "_id" : NumberInt(138), 
+    "EmployeeID" : NumberInt(138), 
+    "Name" : "Signe Barker", 
+    "Position" : "Pediatric Surgery", 
+    "SSN" : NumberInt(782367319), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(17), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Gynecology"
+        }, 
+        {
+            "Department" : NumberInt(21), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Gynecology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000361), 
+        NumberInt(100000409), 
+        NumberInt(100000470), 
+        NumberInt(100000987)
+    ]
+}
+{ 
+    "_id" : NumberInt(139), 
+    "EmployeeID" : NumberInt(139), 
+    "Name" : "Jeanette I. Battle", 
+    "Position" : "Surgical Oncology", 
+    "SSN" : NumberInt(954552934), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "spinal fusion surgery", 
+            "Cost" : 14000.0
+        }, 
+        "CertificationDate" : ISODate("2020-09-29T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-09-29T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000565), 
+        "Procedures" : {
+            "Name" : "Hysterectomy", 
+            "Cost" : 7741.0
+        }, 
+        "Stay" : NumberInt(3305), 
+        "DateUndergoes" : ISODate("2020-04-23T06:07:39.000+0000"), 
+        "Physician" : NumberInt(139), 
+        "AssistingNurse" : NumberInt(158)
+    }, 
+    "Patient" : [
+
+    ]
+}
+{ 
+    "_id" : NumberInt(140), 
+    "EmployeeID" : NumberInt(140), 
+    "Name" : "Anthony T. Payne", 
+    "Position" : "Otolaryngologist", 
+    "SSN" : NumberInt(678223504), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(25), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Urology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Carotid endarterectomy", 
+            "Cost" : 15000.0
+        }, 
+        "CertificationDate" : ISODate("2020-02-15T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-02-15T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000396), 
+        NumberInt(100000402), 
+        NumberInt(100000511), 
+        NumberInt(100000548), 
+        NumberInt(100000861)
+    ]
+}
+{ 
+    "_id" : NumberInt(141), 
+    "EmployeeID" : NumberInt(141), 
+    "Name" : "Barbara U. Vaughn", 
+    "Position" : "Otolaryngologist", 
+    "SSN" : NumberInt(577024645), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(9), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Cardiology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000948)
+    ]
+}
+{ 
+    "_id" : NumberInt(142), 
+    "EmployeeID" : NumberInt(142), 
+    "Name" : "Ruby F. Mills", 
+    "Position" : "Otolaryngologist", 
+    "SSN" : NumberInt(248186254), 
+    "Department" : {
+        "DepartmentID" : NumberInt(24), 
+        "Name" : "Pharmacy"
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000454), 
+        NumberInt(100000649), 
+        NumberInt(100000673), 
+        NumberInt(100000756), 
+        NumberInt(100000785), 
+        NumberInt(100000801)
+    ]
+}
+{ 
+    "_id" : NumberInt(143), 
+    "EmployeeID" : NumberInt(143), 
+    "Name" : "Abdul Gill", 
+    "Position" : "Obstetrician", 
+    "SSN" : NumberInt(167795389), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000148), 
+        NumberInt(100000211), 
+        NumberInt(100000654), 
+        NumberInt(100000774), 
+        NumberInt(100000824)
+    ]
+}
+{ 
+    "_id" : NumberInt(144), 
+    "EmployeeID" : NumberInt(144), 
+    "Name" : "Garrett F. Moon", 
+    "Position" : "Family Physician", 
+    "SSN" : NumberInt(359387520), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Inguinal hernia repair", 
+            "Cost" : 6200.0
+        }, 
+        "CertificationDate" : ISODate("2019-03-20T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2020-03-20T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000161), 
+        NumberInt(100000424), 
+        NumberInt(100000508), 
+        NumberInt(100000569), 
+        NumberInt(100000685), 
+        NumberInt(100000788)
+    ]
+}
+{ 
+    "_id" : NumberInt(145), 
+    "EmployeeID" : NumberInt(145), 
+    "Name" : "Lucius I. Sexton", 
+    "Position" : "Obstetrician", 
+    "SSN" : NumberInt(666285854), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(25), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Urology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Coronary artery bypass", 
+            "Cost" : 40000.0
+        }, 
+        "CertificationDate" : ISODate("2020-12-03T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-12-03T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000579), 
+        NumberInt(100000731), 
+        NumberInt(100000863), 
+        NumberInt(100000989)
+    ]
+}
+{ 
+    "_id" : NumberInt(146), 
+    "EmployeeID" : NumberInt(146), 
+    "Name" : "Latifah Myers", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(373629795), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(4), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Accident and emergency (A&E)"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000096), 
+        NumberInt(100000559), 
+        NumberInt(100000869)
+    ]
+}
+{ 
+    "_id" : NumberInt(147), 
+    "EmployeeID" : NumberInt(147), 
+    "Name" : "Ciara I. Vaughn", 
+    "Position" : "Pediatric Surgery", 
+    "SSN" : NumberInt(165368695), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Laminectomy", 
+            "Cost" : 77000.0
+        }, 
+        "CertificationDate" : ISODate("2018-12-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2019-12-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000206), 
+        "Procedures" : {
+            "Name" : "Partial colectomy", 
+            "Cost" : 31601.0
+        }, 
+        "Stay" : NumberInt(3271), 
+        "DateUndergoes" : ISODate("2020-04-22T21:57:35.000+0000"), 
+        "Physician" : NumberInt(147), 
+        "AssistingNurse" : NumberInt(145)
+    }, 
+    "Patient" : [
+        NumberInt(100000035), 
+        NumberInt(100000444), 
+        NumberInt(100000478), 
+        NumberInt(100000748), 
+        NumberInt(100000806)
+    ]
+}
+{ 
+    "_id" : NumberInt(148), 
+    "EmployeeID" : NumberInt(148), 
+    "Name" : "Isaac Short", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(829568673), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Appendectomy", 
+            "Cost" : 33000.0
+        }, 
+        "CertificationDate" : ISODate("2020-09-29T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-09-29T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000360), 
+        NumberInt(100000375), 
+        NumberInt(100000493), 
+        NumberInt(100000835), 
+        NumberInt(100000886), 
+        NumberInt(100000941), 
+        NumberInt(100000971)
+    ]
+}
+{ 
+    "_id" : NumberInt(149), 
+    "EmployeeID" : NumberInt(149), 
+    "Name" : "Lucas Z. Hogan", 
+    "Position" : "Vascular Surgery", 
+    "SSN" : NumberInt(415189660), 
+    "Department" : {
+        "DepartmentID" : NumberInt(28), 
+        "Name" : "Radiology"
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(15), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Discharge Lounge"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000110), 
+        NumberInt(100000249), 
+        NumberInt(100000407), 
+        NumberInt(100000414), 
+        NumberInt(100000483), 
+        NumberInt(100000678)
+    ]
+}
+{ 
+    "_id" : NumberInt(150), 
+    "EmployeeID" : NumberInt(150), 
+    "Name" : "Sybill O. Peterson", 
+    "Position" : "Family Physician", 
+    "SSN" : NumberInt(665796523), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000003), 
+        NumberInt(100000075), 
+        NumberInt(100000126), 
+        NumberInt(100000442), 
+        NumberInt(100000523), 
+        NumberInt(100000675), 
+        NumberInt(100000841)
+    ]
+}
+{ 
+    "_id" : NumberInt(151), 
+    "EmployeeID" : NumberInt(151), 
+    "Name" : "Carlos Weaver", 
+    "Position" : "Pediatric Surgery", 
+    "SSN" : NumberInt(684931224), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(14), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Diagnostic Imaging"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000123), 
+        NumberInt(100000850), 
+        NumberInt(100000898)
+    ]
+}
+{ 
+    "_id" : NumberInt(152), 
+    "EmployeeID" : NumberInt(152), 
+    "Name" : "Basia G. Hopkins", 
+    "Position" : "Otolaryngologist", 
+    "SSN" : NumberInt(226085014), 
+    "Department" : {
+        "DepartmentID" : NumberInt(27), 
+        "Name" : "Radiotherapy"
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(4), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Accident and emergency (A&E)"
+        }, 
+        {
+            "Department" : NumberInt(5), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Accident and emergency (A&E)"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000184), 
+        NumberInt(100000398), 
+        NumberInt(100000400), 
+        NumberInt(100000551), 
+        NumberInt(100000771), 
+        NumberInt(100000958), 
+        NumberInt(100000997)
+    ]
+}
+{ 
+    "_id" : NumberInt(153), 
+    "EmployeeID" : NumberInt(153), 
+    "Name" : "Sage P. Estes", 
+    "Position" : "Vascular Surgery", 
+    "SSN" : NumberInt(256829231), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000025), 
+        NumberInt(100000230), 
+        NumberInt(100000406), 
+        NumberInt(100000441), 
+        NumberInt(100000986)
+    ]
+}
+{ 
+    "_id" : NumberInt(154), 
+    "EmployeeID" : NumberInt(154), 
+    "Name" : "Tobias Rogers", 
+    "Position" : "Family Physician", 
+    "SSN" : NumberInt(916665870), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000533), 
+        "Procedures" : {
+            "Name" : "Cesarean section", 
+            "Cost" : 20000.0
+        }, 
+        "Stay" : NumberInt(3307), 
+        "DateUndergoes" : ISODate("2020-04-29T05:15:31.000+0000"), 
+        "Physician" : NumberInt(154), 
+        "AssistingNurse" : NumberInt(323)
+    }, 
+    "Patient" : [
+        NumberInt(100000093), 
+        NumberInt(100000094), 
+        NumberInt(100000410), 
+        NumberInt(100000668), 
+        NumberInt(100000787)
+    ]
+}
+{ 
+    "_id" : NumberInt(155), 
+    "EmployeeID" : NumberInt(155), 
+    "Name" : "Penelope T. Russo", 
+    "Position" : "Surgical Oncology", 
+    "SSN" : NumberInt(529145232), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(7), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Breast Screening"
+        }, 
+        {
+            "Department" : NumberInt(8), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Breast Screening"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Cholecystectomy", 
+            "Cost" : 11234.0
+        }, 
+        "CertificationDate" : ISODate("2020-01-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-01-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000281), 
+        "Procedures" : {
+            "Name" : "Coronary artery bypass", 
+            "Cost" : 40000.0
+        }, 
+        "Stay" : NumberInt(3234), 
+        "DateUndergoes" : ISODate("2020-04-24T12:33:02.000+0000"), 
+        "Physician" : NumberInt(155), 
+        "AssistingNurse" : NumberInt(558)
+    }, 
+    "Patient" : [
+        NumberInt(100000912)
+    ]
+}
+{ 
+    "_id" : NumberInt(156), 
+    "EmployeeID" : NumberInt(156), 
+    "Name" : "August Carpenter", 
+    "Position" : "Vascular Surgery", 
+    "SSN" : NumberInt(636770981), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Partial colectomy", 
+            "Cost" : 31601.0
+        }, 
+        "CertificationDate" : ISODate("2020-04-29T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-04-29T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000761), 
+        "Procedures" : {
+            "Name" : "Appendectomy", 
+            "Cost" : 33000.0
+        }, 
+        "Stay" : NumberInt(3310), 
+        "DateUndergoes" : ISODate("2020-04-24T22:51:07.000+0000"), 
+        "Physician" : NumberInt(156), 
+        "AssistingNurse" : NumberInt(211)
+    }, 
+    "Patient" : [
+        NumberInt(100000031), 
+        NumberInt(100000343), 
+        NumberInt(100000688), 
+        NumberInt(100000842)
+    ]
+}
+{ 
+    "_id" : NumberInt(157), 
+    "EmployeeID" : NumberInt(157), 
+    "Name" : "Anthony Dickerson", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(176997186), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000370), 
+        NumberInt(100000374), 
+        NumberInt(100000460), 
+        NumberInt(100000492), 
+        NumberInt(100000570), 
+        NumberInt(100000576), 
+        NumberInt(100000796)
+    ]
+}
+{ 
+    "_id" : NumberInt(158), 
+    "EmployeeID" : NumberInt(158), 
+    "Name" : "Deacon D. Willis", 
+    "Position" : "Dermatologist", 
+    "SSN" : NumberInt(115042776), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000083), 
+        NumberInt(100000095), 
+        NumberInt(100000114), 
+        NumberInt(100000244), 
+        NumberInt(100000703), 
+        NumberInt(100000906)
+    ]
+}
+{ 
+    "_id" : NumberInt(159), 
+    "EmployeeID" : NumberInt(159), 
+    "Name" : "Hedda Franco", 
+    "Position" : "Vascular Surgery", 
+    "SSN" : NumberInt(673957683), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(17), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Gynecology"
+        }, 
+        {
+            "Department" : NumberInt(30), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Gynecology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000239), 
+        NumberInt(100000373), 
+        NumberInt(100000706), 
+        NumberInt(100000807), 
+        NumberInt(100000992)
+    ]
+}
+{ 
+    "_id" : NumberInt(160), 
+    "EmployeeID" : NumberInt(160), 
+    "Name" : "Palmer B. Maxwell", 
+    "Position" : "Obstetrician", 
+    "SSN" : NumberInt(903792823), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(18), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Haematology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000471), 
+        NumberInt(100000621), 
+        NumberInt(100000663), 
+        NumberInt(100000743)
+    ]
+}
+{ 
+    "_id" : NumberInt(161), 
+    "EmployeeID" : NumberInt(161), 
+    "Name" : "Naomi O. Dixon", 
+    "Position" : "Dermatologist", 
+    "SSN" : NumberInt(683120027), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Modified radical mastectomy", 
+            "Cost" : 7274.0
+        }, 
+        "CertificationDate" : ISODate("2018-12-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2019-12-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000840), 
+        "Procedures" : {
+            "Name" : "Partial colectomy", 
+            "Cost" : 31601.0
+        }, 
+        "Stay" : NumberInt(3233), 
+        "DateUndergoes" : ISODate("2020-04-24T07:58:46.000+0000"), 
+        "Physician" : NumberInt(161), 
+        "AssistingNurse" : NumberInt(393)
+    }, 
+    "Patient" : [
+        NumberInt(100000227), 
+        NumberInt(100000717), 
+        NumberInt(100000736), 
+        NumberInt(100000923)
+    ]
+}
+{ 
+    "_id" : NumberInt(162), 
+    "EmployeeID" : NumberInt(162), 
+    "Name" : "Ferris Q. Frazier", 
+    "Position" : "Family Physician", 
+    "SSN" : NumberInt(528201500), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Hysterectomy", 
+            "Cost" : 7741.0
+        }, 
+        "CertificationDate" : ISODate("2020-08-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-08-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000168), 
+        "Procedures" : {
+            "Name" : "Autolytic debridement", 
+            "Cost" : 6700.0
+        }, 
+        "Stay" : NumberInt(3243), 
+        "DateUndergoes" : ISODate("2020-04-22T03:27:33.000+0000"), 
+        "Physician" : NumberInt(162), 
+        "AssistingNurse" : NumberInt(501)
+    }, 
+    "Patient" : [
+        NumberInt(100000273), 
+        NumberInt(100000289), 
+        NumberInt(100000554), 
+        NumberInt(100000679), 
+        NumberInt(100000888)
+    ]
+}
+{ 
+    "_id" : NumberInt(163), 
+    "EmployeeID" : NumberInt(163), 
+    "Name" : "Giacomo Contreras", 
+    "Position" : "Otolaryngologist", 
+    "SSN" : NumberInt(112357596), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(28), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Radiology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000882), 
+        "Procedures" : {
+            "Name" : "Dilation and curettage", 
+            "Cost" : 5253.0
+        }, 
+        "Stay" : NumberInt(3293), 
+        "DateUndergoes" : ISODate("2020-04-22T07:16:51.000+0000"), 
+        "Physician" : NumberInt(163), 
+        "AssistingNurse" : NumberInt(169)
+    }, 
+    "Patient" : [
+        NumberInt(100000190), 
+        NumberInt(100000254), 
+        NumberInt(100000263), 
+        NumberInt(100000408), 
+        NumberInt(100000476), 
+        NumberInt(100000517), 
+        NumberInt(100000566), 
+        NumberInt(100000963)
+    ]
+}
+{ 
+    "_id" : NumberInt(164), 
+    "EmployeeID" : NumberInt(164), 
+    "Name" : "Bradley C. Garner", 
+    "Position" : "Otolaryngologist", 
+    "SSN" : NumberInt(795557550), 
+    "Department" : {
+        "DepartmentID" : NumberInt(26), 
+        "Name" : "Rheumatology"
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(25), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Urology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000054), 
+        NumberInt(100000188), 
+        NumberInt(100000340), 
+        NumberInt(100000600), 
+        NumberInt(100000666), 
+        NumberInt(100000711), 
+        NumberInt(100000783), 
+        NumberInt(100000819), 
+        NumberInt(100000836), 
+        NumberInt(100000870), 
+        NumberInt(100000979)
+    ]
+}
+{ 
+    "_id" : NumberInt(165), 
+    "EmployeeID" : NumberInt(165), 
+    "Name" : "Ryder Hobbs", 
+    "Position" : "Dermatologist", 
+    "SSN" : NumberInt(906103385), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(18), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Haematology"
+        }, 
+        {
+            "Department" : NumberInt(22), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Haematology"
+        }, 
+        {
+            "Department" : NumberInt(24), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Haematology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000994), 
+        "Procedures" : {
+            "Name" : "Cholecystectomy", 
+            "Cost" : 11234.0
+        }, 
+        "Stay" : NumberInt(3218), 
+        "DateUndergoes" : ISODate("2020-04-22T01:05:39.000+0000"), 
+        "Physician" : NumberInt(165), 
+        "AssistingNurse" : NumberInt(474)
+    }, 
+    "Patient" : [
+        NumberInt(100000010), 
+        NumberInt(100000013), 
+        NumberInt(100000039), 
+        NumberInt(100000146), 
+        NumberInt(100000535), 
+        NumberInt(100000631), 
+        NumberInt(100000752), 
+        NumberInt(100000909), 
+        NumberInt(100000918)
+    ]
+}
+{ 
+    "_id" : NumberInt(166), 
+    "EmployeeID" : NumberInt(166), 
+    "Name" : "Ursa G. Parker", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(943541882), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000449), 
+        NumberInt(100000712), 
+        NumberInt(100000718)
+    ]
+}
+{ 
+    "_id" : NumberInt(167), 
+    "EmployeeID" : NumberInt(167), 
+    "Name" : "Brennan Orr", 
+    "Position" : "Obstetrician", 
+    "SSN" : NumberInt(424850842), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000044), 
+        NumberInt(100000156), 
+        NumberInt(100000367), 
+        NumberInt(100000628)
+    ]
+}
+{ 
+    "_id" : NumberInt(168), 
+    "EmployeeID" : NumberInt(168), 
+    "Name" : "Kim Castro", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(959643442), 
+    "Department" : {
+        "DepartmentID" : NumberInt(22), 
+        "Name" : "Orthopaedics"
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000468), 
+        NumberInt(100000641), 
+        NumberInt(100000857)
+    ]
+}
+{ 
+    "_id" : NumberInt(169), 
+    "EmployeeID" : NumberInt(169), 
+    "Name" : "Flynn M. Williams", 
+    "Position" : "Obstetrician", 
+    "SSN" : NumberInt(707512589), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Modified radical mastectomy", 
+            "Cost" : 7274.0
+        }, 
+        "CertificationDate" : ISODate("2020-09-25T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-09-25T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000052), 
+        "Procedures" : {
+            "Name" : "Inguinal hernia repair", 
+            "Cost" : 6200.0
+        }, 
+        "Stay" : NumberInt(3286), 
+        "DateUndergoes" : ISODate("2020-04-22T05:37:09.000+0000"), 
+        "Physician" : NumberInt(169), 
+        "AssistingNurse" : NumberInt(236)
+    }, 
+    "Patient" : [
+        NumberInt(100000065), 
+        NumberInt(100000415), 
+        NumberInt(100000543), 
+        NumberInt(100000738), 
+        NumberInt(100000811), 
+        NumberInt(100000901)
+    ]
+}
+{ 
+    "_id" : NumberInt(170), 
+    "EmployeeID" : NumberInt(170), 
+    "Name" : "Hermione Marshall", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(867568361), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000107), 
+        NumberInt(100000261), 
+        NumberInt(100000501), 
+        NumberInt(100000518), 
+        NumberInt(100000572), 
+        NumberInt(100000988)
+    ]
+}
+{ 
+    "_id" : NumberInt(171), 
+    "EmployeeID" : NumberInt(171), 
+    "Name" : "Cody H. Neal", 
+    "Position" : "Rheumatology", 
+    "SSN" : NumberInt(622378007), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(4), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Accident and emergency (A&E)"
+        }, 
+        {
+            "Department" : NumberInt(15), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Accident and emergency (A&E)"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000140), 
+        NumberInt(100000258), 
+        NumberInt(100000362), 
+        NumberInt(100000750), 
+        NumberInt(100000812)
+    ]
+}
+{ 
+    "_id" : NumberInt(172), 
+    "EmployeeID" : NumberInt(172), 
+    "Name" : "Dakota Roach", 
+    "Position" : "Family Physician", 
+    "SSN" : NumberInt(103684231), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Cholecystectomy", 
+            "Cost" : 11234.0
+        }, 
+        "CertificationDate" : ISODate("2020-08-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-08-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000658), 
+        "Procedures" : {
+            "Name" : "Breast biopsy", 
+            "Cost" : 500.0
+        }, 
+        "Stay" : NumberInt(3305), 
+        "DateUndergoes" : ISODate("2020-04-27T03:31:27.000+0000"), 
+        "Physician" : NumberInt(172), 
+        "AssistingNurse" : NumberInt(459)
+    }, 
+    "Patient" : [
+        NumberInt(100000049), 
+        NumberInt(100000103), 
+        NumberInt(100000458), 
+        NumberInt(100000633), 
+        NumberInt(100000778), 
+        NumberInt(100000961)
+    ]
+}
+{ 
+    "_id" : NumberInt(173), 
+    "EmployeeID" : NumberInt(173), 
+    "Name" : "Salvador S. Buchanan", 
+    "Position" : "Pediatric Surgery", 
+    "SSN" : NumberInt(672058247), 
+    "Department" : {
+        "DepartmentID" : NumberInt(30), 
+        "Name" : "Ophthalmology"
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000221), 
+        NumberInt(100000297), 
+        NumberInt(100000662), 
+        NumberInt(100000954)
+    ]
+}
+{ 
+    "_id" : NumberInt(174), 
+    "EmployeeID" : NumberInt(174), 
+    "Name" : "Olga Hopkins", 
+    "Position" : "Surgical Oncology", 
+    "SSN" : NumberInt(669745685), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(14), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Diagnostic Imaging"
+        }, 
+        {
+            "Department" : NumberInt(29), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Diagnostic Imaging"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Appendectomy", 
+            "Cost" : 33000.0
+        }, 
+        "CertificationDate" : ISODate("2020-04-15T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-04-15T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000570), 
+        "Procedures" : {
+            "Name" : "Prostatectomy", 
+            "Cost" : 35000.0
+        }, 
+        "Stay" : NumberInt(3287), 
+        "DateUndergoes" : ISODate("2020-04-26T13:12:07.000+0000"), 
+        "Physician" : NumberInt(174), 
+        "AssistingNurse" : NumberInt(313)
+    }, 
+    "Patient" : [
+        NumberInt(100000377)
+    ]
+}
+{ 
+    "_id" : NumberInt(175), 
+    "EmployeeID" : NumberInt(175), 
+    "Name" : "Fuller L. Harvey", 
+    "Position" : "Surgical Oncology", 
+    "SSN" : NumberInt(297092511), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Hemorrhoidectomy", 
+            "Cost" : 5965.0
+        }, 
+        "CertificationDate" : ISODate("2020-09-29T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-09-29T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000809), 
+        "Procedures" : {
+            "Name" : "Coronary artery bypass", 
+            "Cost" : 40000.0
+        }, 
+        "Stay" : NumberInt(3219), 
+        "DateUndergoes" : ISODate("2020-04-22T12:52:35.000+0000"), 
+        "Physician" : NumberInt(175), 
+        "AssistingNurse" : NumberInt(555)
+    }, 
+    "Patient" : [
+        NumberInt(100000015), 
+        NumberInt(100000172), 
+        NumberInt(100000242), 
+        NumberInt(100000573), 
+        NumberInt(100000590), 
+        NumberInt(100000693), 
+        NumberInt(100000767)
+    ]
+}
+{ 
+    "_id" : NumberInt(176), 
+    "EmployeeID" : NumberInt(176), 
+    "Name" : "Zena Sampson", 
+    "Position" : "Surgical Oncology", 
+    "SSN" : NumberInt(224512322), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(20), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Neonatal"
+        }, 
+        {
+            "Department" : NumberInt(22), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Neonatal"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Coronary artery bypass", 
+            "Cost" : 40000.0
+        }, 
+        "CertificationDate" : ISODate("2018-12-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2019-12-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000224), 
+        NumberInt(100000275), 
+        NumberInt(100000332), 
+        NumberInt(100000871), 
+        NumberInt(100000883)
+    ]
+}
+{ 
+    "_id" : NumberInt(177), 
+    "EmployeeID" : NumberInt(177), 
+    "Name" : "Kristen Rodriguez", 
+    "Position" : "Pediatric Surgery", 
+    "SSN" : NumberInt(783823509), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(24), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Pharmacy"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000024), 
+        NumberInt(100000252), 
+        NumberInt(100000286), 
+        NumberInt(100000922)
+    ]
+}
+{ 
+    "_id" : NumberInt(178), 
+    "EmployeeID" : NumberInt(178), 
+    "Name" : "Porter Cleveland", 
+    "Position" : "Dermatologist", 
+    "SSN" : NumberInt(614933440), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Reverse rhinoplasty", 
+            "Cost" : 15000.0
+        }, 
+        "CertificationDate" : ISODate("2020-03-13T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-03-13T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000143), 
+        NumberInt(100000265), 
+        NumberInt(100000326), 
+        NumberInt(100000503), 
+        NumberInt(100000604), 
+        NumberInt(100000638), 
+        NumberInt(100000808)
+    ]
+}
+{ 
+    "_id" : NumberInt(179), 
+    "EmployeeID" : NumberInt(179), 
+    "Name" : "Nehru Jefferson", 
+    "Position" : "Dermatologist", 
+    "SSN" : NumberInt(126017748), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000233), 
+        NumberInt(100000330), 
+        NumberInt(100000847), 
+        NumberInt(100000864), 
+        NumberInt(100000902)
+    ]
+}
+{ 
+    "_id" : NumberInt(180), 
+    "EmployeeID" : NumberInt(180), 
+    "Name" : "Katell R. Holman", 
+    "Position" : "Family Physician", 
+    "SSN" : NumberInt(605512555), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(4), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Accident and emergency (A&E)"
+        }, 
+        {
+            "Department" : NumberInt(10), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Accident and emergency (A&E)"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000173), 
+        NumberInt(100000411), 
+        NumberInt(100000623), 
+        NumberInt(100000700), 
+        NumberInt(100000821)
+    ]
+}
+{ 
+    "_id" : NumberInt(181), 
+    "EmployeeID" : NumberInt(181), 
+    "Name" : "Donovan H. Horn", 
+    "Position" : "Pediatric Surgery", 
+    "SSN" : NumberInt(945965161), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(12), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Coronary Care Unit (CCU)"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Cesarean section", 
+            "Cost" : 20000.0
+        }, 
+        "CertificationDate" : ISODate("2020-01-03T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-01-03T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000914), 
+        "Procedures" : {
+            "Name" : "spinal fusion surgery", 
+            "Cost" : 14000.0
+        }, 
+        "Stay" : NumberInt(3226), 
+        "DateUndergoes" : ISODate("2020-04-24T11:23:44.000+0000"), 
+        "Physician" : NumberInt(181), 
+        "AssistingNurse" : NumberInt(173)
+    }, 
+    "Patient" : [
+        NumberInt(100000462), 
+        NumberInt(100000735)
+    ]
+}
+{ 
+    "_id" : NumberInt(182), 
+    "EmployeeID" : NumberInt(182), 
+    "Name" : "Scott Jarvis", 
+    "Position" : "Vascular Surgery", 
+    "SSN" : NumberInt(219561912), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000145), 
+        "Procedures" : {
+            "Name" : "Inguinal hernia repair", 
+            "Cost" : 6200.0
+        }, 
+        "Stay" : NumberInt(3291), 
+        "DateUndergoes" : ISODate("2020-04-25T09:33:08.000+0000"), 
+        "Physician" : NumberInt(182), 
+        "AssistingNurse" : NumberInt(472)
+    }, 
+    "Patient" : [
+        NumberInt(100000078), 
+        NumberInt(100000130), 
+        NumberInt(100000298), 
+        NumberInt(100000321), 
+        NumberInt(100000387), 
+        NumberInt(100000510), 
+        NumberInt(100000661), 
+        NumberInt(100000911), 
+        NumberInt(100000983)
+    ]
+}
+{ 
+    "_id" : NumberInt(183), 
+    "EmployeeID" : NumberInt(183), 
+    "Name" : "Jemima Gutierrez", 
+    "Position" : "Pulmonology", 
+    "SSN" : NumberInt(137811371), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(25), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Urology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Partial colectomy", 
+            "Cost" : 31601.0
+        }, 
+        "CertificationDate" : ISODate("2020-02-07T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-02-07T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000348), 
+        NumberInt(100000463), 
+        NumberInt(100000754), 
+        NumberInt(100000892)
+    ]
+}
+{ 
+    "_id" : NumberInt(184), 
+    "EmployeeID" : NumberInt(184), 
+    "Name" : "Orli Bowman", 
+    "Position" : "Vascular Surgery", 
+    "SSN" : NumberInt(317732631), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Reverse rhinoplasty", 
+            "Cost" : 15000.0
+        }, 
+        "CertificationDate" : ISODate("2020-08-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-08-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000082), 
+        NumberInt(100000137), 
+        NumberInt(100000519), 
+        NumberInt(100000567), 
+        NumberInt(100000636), 
+        NumberInt(100000895), 
+        NumberInt(100000903)
+    ]
+}
+{ 
+    "_id" : NumberInt(185), 
+    "EmployeeID" : NumberInt(185), 
+    "Name" : "Garrett Pittman", 
+    "Position" : "Otolaryngologist", 
+    "SSN" : NumberInt(717206657), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(14), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Diagnostic Imaging"
+        }, 
+        {
+            "Department" : NumberInt(22), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Diagnostic Imaging"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000192), 
+        NumberInt(100000550), 
+        NumberInt(100000596), 
+        NumberInt(100000617), 
+        NumberInt(100000689), 
+        NumberInt(100000699)
+    ]
+}
+{ 
+    "_id" : NumberInt(186), 
+    "EmployeeID" : NumberInt(186), 
+    "Name" : "Ulysses Chang", 
+    "Position" : "Vascular Surgery", 
+    "SSN" : NumberInt(859347268), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Inguinal hernia repair", 
+            "Cost" : 6200.0
+        }, 
+        "CertificationDate" : ISODate("2018-12-17T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2019-12-17T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000256), 
+        "Procedures" : {
+            "Name" : "Reverse rhinoplasty", 
+            "Cost" : 15000.0
+        }, 
+        "Stay" : NumberInt(3253), 
+        "DateUndergoes" : ISODate("2020-04-24T18:25:26.000+0000"), 
+        "Physician" : NumberInt(186), 
+        "AssistingNurse" : NumberInt(551)
+    }, 
+    "Patient" : [
+        NumberInt(100000017), 
+        NumberInt(100000964)
+    ]
+}
+{ 
+    "_id" : NumberInt(187), 
+    "EmployeeID" : NumberInt(187), 
+    "Name" : "Aimee Park", 
+    "Position" : "Surgical Oncology", 
+    "SSN" : NumberInt(613455151), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Dilation and curettage", 
+            "Cost" : 5253.0
+        }, 
+        "CertificationDate" : ISODate("2020-08-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-08-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000043), 
+        NumberInt(100000309), 
+        NumberInt(100000537), 
+        NumberInt(100000646), 
+        NumberInt(100000802)
+    ]
+}
+{ 
+    "_id" : NumberInt(188), 
+    "EmployeeID" : NumberInt(188), 
+    "Name" : "Nehru C. Osborn", 
+    "Position" : "Pediatric Surgery", 
+    "SSN" : NumberInt(463658304), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(18), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Haematology"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000050), 
+        NumberInt(100000051), 
+        NumberInt(100000170), 
+        NumberInt(100000171), 
+        NumberInt(100000182)
+    ]
+}
+{ 
+    "_id" : NumberInt(189), 
+    "EmployeeID" : NumberInt(189), 
+    "Name" : "Cassidy Meadows", 
+    "Position" : "Surgical Oncology", 
+    "SSN" : NumberInt(416290908), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Hemorrhoidectomy", 
+            "Cost" : 5965.0
+        }, 
+        "CertificationDate" : ISODate("2019-04-16T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2020-04-16T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000022), 
+        NumberInt(100000203), 
+        NumberInt(100000259), 
+        NumberInt(100000502), 
+        NumberInt(100000900), 
+        NumberInt(100000982)
+    ]
+}
+{ 
+    "_id" : NumberInt(190), 
+    "EmployeeID" : NumberInt(190), 
+    "Name" : "Aphrodite Booth", 
+    "Position" : "Dermatologist", 
+    "SSN" : NumberInt(357578476), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000668), 
+        "Procedures" : {
+            "Name" : "Breast biopsy", 
+            "Cost" : 500.0
+        }, 
+        "Stay" : NumberInt(3258), 
+        "DateUndergoes" : ISODate("2020-04-25T01:03:15.000+0000"), 
+        "Physician" : NumberInt(190), 
+        "AssistingNurse" : NumberInt(395)
+    }, 
+    "Patient" : [
+        NumberInt(100000166), 
+        NumberInt(100000322), 
+        NumberInt(100000365), 
+        NumberInt(100000885), 
+        NumberInt(100000975)
+    ]
+}
+{ 
+    "_id" : NumberInt(191), 
+    "EmployeeID" : NumberInt(191), 
+    "Name" : "Quinlan Pearson", 
+    "Position" : "Surgical Oncology", 
+    "SSN" : NumberInt(848452565), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(13), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Critical Care"
+        }, 
+        {
+            "Department" : NumberInt(22), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Critical Care"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000019), 
+        NumberInt(100000217), 
+        NumberInt(100000282)
+    ]
+}
+{ 
+    "_id" : NumberInt(192), 
+    "EmployeeID" : NumberInt(192), 
+    "Name" : "Lee K. Franco", 
+    "Position" : "Family Physician", 
+    "SSN" : NumberInt(837297583), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(13), 
+            "PrimaryAffiliation" : false, 
+            "Name" : "Critical Care"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Reverse rhinoplasty", 
+            "Cost" : 15000.0
+        }, 
+        "CertificationDate" : ISODate("2018-11-24T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2019-11-24T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Patient" : NumberInt(100000770), 
+        "Procedures" : {
+            "Name" : "Mastectomy", 
+            "Cost" : 20392.0
+        }, 
+        "Stay" : NumberInt(3239), 
+        "DateUndergoes" : ISODate("2020-04-25T07:36:18.000+0000"), 
+        "Physician" : NumberInt(192), 
+        "AssistingNurse" : NumberInt(178)
+    }, 
+    "Patient" : [
+        NumberInt(100000671), 
+        NumberInt(100000834), 
+        NumberInt(100000853)
+    ]
+}
+{ 
+    "_id" : NumberInt(193), 
+    "EmployeeID" : NumberInt(193), 
+    "Name" : "Maggy Carrillo", 
+    "Position" : "Surgical Oncology", 
+    "SSN" : NumberInt(299168565), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000425)
+    ]
+}
+{ 
+    "_id" : NumberInt(194), 
+    "EmployeeID" : NumberInt(194), 
+    "Name" : "Cruz C. Hardy", 
+    "Position" : "Pediatric Surgery", 
+    "SSN" : NumberInt(575736679), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Carotid endarterectomy", 
+            "Cost" : 15000.0
+        }, 
+        "CertificationDate" : ISODate("2020-03-10T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-03-10T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000071), 
+        NumberInt(100000234), 
+        NumberInt(100000316), 
+        NumberInt(100000382)
+    ]
+}
+{ 
+    "_id" : NumberInt(195), 
+    "EmployeeID" : NumberInt(195), 
+    "Name" : "Hilda Padilla", 
+    "Position" : "Vascular Surgery", 
+    "SSN" : NumberInt(394163707), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Appendectomy", 
+            "Cost" : 33000.0
+        }, 
+        "CertificationDate" : ISODate("2020-09-29T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-09-29T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000119), 
+        NumberInt(100000241), 
+        NumberInt(100000465), 
+        NumberInt(100000680), 
+        NumberInt(100000760)
+    ]
+}
+{ 
+    "_id" : NumberInt(196), 
+    "EmployeeID" : NumberInt(196), 
+    "Name" : "Katell Q. Pace", 
+    "Position" : "Vascular Surgery", 
+    "SSN" : NumberInt(814386123), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Appendectomy", 
+            "Cost" : 33000.0
+        }, 
+        "CertificationDate" : ISODate("2020-01-13T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-01-13T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000059), 
+        NumberInt(100000207), 
+        NumberInt(100000229), 
+        NumberInt(100000418), 
+        NumberInt(100000429), 
+        NumberInt(100000691), 
+        NumberInt(100000697), 
+        NumberInt(100000810), 
+        NumberInt(100000970)
+    ]
+}
+{ 
+    "_id" : NumberInt(197), 
+    "EmployeeID" : NumberInt(197), 
+    "Name" : "Fritz Wolf", 
+    "Position" : "Family Physician", 
+    "SSN" : NumberInt(424331867), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000214), 
+        NumberInt(100000247), 
+        NumberInt(100000620), 
+        NumberInt(100000669)
+    ]
+}
+{ 
+    "_id" : NumberInt(198), 
+    "EmployeeID" : NumberInt(198), 
+    "Name" : "Phillip Fisher", 
+    "Position" : "Dermatologist", 
+    "SSN" : NumberInt(693757842), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+        {
+            "Department" : NumberInt(11), 
+            "PrimaryAffiliation" : true, 
+            "Name" : "Nutrition and Dietetics"
+        }
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Appendectomy", 
+            "Cost" : 33000.0
+        }, 
+        "CertificationDate" : ISODate("2020-01-07T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-01-07T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000061), 
+        NumberInt(100000281), 
+        NumberInt(100000296), 
+        NumberInt(100000300), 
+        NumberInt(100000336), 
+        NumberInt(100000575), 
+        NumberInt(100000959)
+    ]
+}
+{ 
+    "_id" : NumberInt(199), 
+    "EmployeeID" : NumberInt(199), 
+    "Name" : "Walker O. Thompson", 
+    "Position" : "Surgical Oncology", 
+    "SSN" : NumberInt(748091798), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Cholecystectomy", 
+            "Cost" : 11234.0
+        }, 
+        "CertificationDate" : ISODate("2020-01-30T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2021-01-30T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000004), 
+        NumberInt(100000504), 
+        NumberInt(100000547), 
+        NumberInt(100000660), 
+        NumberInt(100000773), 
+        NumberInt(100000780)
+    ]
+}
+{ 
+    "_id" : NumberInt(200), 
+    "EmployeeID" : NumberInt(200), 
+    "Name" : "Calista M. Hall", 
+    "Position" : "Surgical Oncology", 
+    "SSN" : NumberInt(494672181), 
+    "Department" : {
+
+    }, 
+    "Affiliated_With" : [
+
+    ], 
+    "Trained_In" : {
+        "Procedures" : {
+            "Name" : "Prostatectomy", 
+            "Cost" : 35000.0
+        }, 
+        "CertificationDate" : ISODate("2018-03-20T00:00:00.000+0000"), 
+        "CertificationExpires" : ISODate("2019-03-20T00:00:00.000+0000")
+    }, 
+    "Undergoes" : {
+        "Procedures" : {
+
+        }
+    }, 
+    "Patient" : [
+        NumberInt(100000084), 
+        NumberInt(100000482)
+    ]
+}
